@@ -21,8 +21,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/aroeum-network/go-aroeum/common/mclock"
-	"github.com/aroeum-network/go-aroeum/common/prque"
+	"github.com/justin-0613/go-aroeum/common/mclock"
+	"github.com/justin-0613/go-aroeum/common/prque"
 )
 
 // servingQueue allows running tasks in a limited number of threads and puts the

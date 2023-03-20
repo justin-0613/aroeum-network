@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/aroeum-network/go-aroeum"
-	"github.com/aroeum-network/go-aroeum/event"
-	"github.com/aroeum-network/go-aroeum/rpc"
+	"github.com/justin-0613/go-aroeum"
+	"github.com/justin-0613/go-aroeum/event"
+	"github.com/justin-0613/go-aroeum/rpc"
 )
 
 // DownloaderAPI provides an API which gives information about the current synchronisation status.

@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/les/utils"
+	"github.com/justin-0613/go-aroeum/les/utils"
 )
 
 func TestTransition(t *testing.T) {

@@ -5880,7 +5880,7 @@ module.exports = Shh;
  * @author Alex Beregszaszi <alex@rtfs.hu>
  * @date 2016
  *
- * Reference: https://github.com/aroeum-network/go-aroeum/blob/swarm/internal/web3ext/web3ext.go#L33
+ * Reference: https://github.com/justin-0613/go-aroeum/blob/swarm/internal/web3ext/web3ext.go#L33
  */
 
 "use strict";

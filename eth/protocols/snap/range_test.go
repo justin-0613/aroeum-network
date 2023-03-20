@@ -19,7 +19,7 @@ package snap
 import (
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/common"
 )
 
 // Tests that given a starting hash and a density, the hash ranger can correctly

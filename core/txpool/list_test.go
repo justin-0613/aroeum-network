@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/core/types"
-	"github.com/aroeum-network/go-aroeum/crypto"
+	"github.com/justin-0613/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

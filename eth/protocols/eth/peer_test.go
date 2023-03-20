@@ -23,9 +23,9 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/p2p"
-	"github.com/aroeum-network/go-aroeum/p2p/enode"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/p2p"
+	"github.com/justin-0613/go-aroeum/p2p/enode"
 )
 
 // testPeer is a simulated peer to allow testing direct network calls.

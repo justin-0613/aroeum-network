@@ -21,8 +21,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/aroeum-network/go-aroeum/core/rawdb"
-	"github.com/aroeum-network/go-aroeum/trie"
+	"github.com/justin-0613/go-aroeum/core/rawdb"
+	"github.com/justin-0613/go-aroeum/trie"
 )
 
 // randTest performs random trie operations.

@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/aroeum-network/go-aroeum"
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/core/types"
 )
 
 var (

@@ -21,7 +21,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/p2p/enode"
+	"github.com/justin-0613/go-aroeum/p2p/enode"
 )
 
 // lookup performs a network search for nodes close to the given target. It approaches the

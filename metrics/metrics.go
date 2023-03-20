@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/log"
+	"github.com/justin-0613/go-aroeum/log"
 )
 
 // Enabled is checked by the constructor functions for all of the

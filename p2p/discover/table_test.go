@@ -27,10 +27,10 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/crypto"
-	"github.com/aroeum-network/go-aroeum/p2p/enode"
-	"github.com/aroeum-network/go-aroeum/p2p/enr"
-	"github.com/aroeum-network/go-aroeum/p2p/netutil"
+	"github.com/justin-0613/go-aroeum/crypto"
+	"github.com/justin-0613/go-aroeum/p2p/enode"
+	"github.com/justin-0613/go-aroeum/p2p/enr"
+	"github.com/justin-0613/go-aroeum/p2p/netutil"
 )
 
 func TestTable_pingReplace(t *testing.T) {

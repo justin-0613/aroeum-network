@@ -26,26 +26,26 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/aroeum-network/go-aroeum/accounts"
-	"github.com/aroeum-network/go-aroeum/accounts/abi"
-	"github.com/aroeum-network/go-aroeum/accounts/keystore"
-	"github.com/aroeum-network/go-aroeum/accounts/scwallet"
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/common/hexutil"
-	"github.com/aroeum-network/go-aroeum/common/math"
-	"github.com/aroeum-network/go-aroeum/consensus/ethash"
-	"github.com/aroeum-network/go-aroeum/consensus/misc"
-	"github.com/aroeum-network/go-aroeum/core"
-	"github.com/aroeum-network/go-aroeum/core/state"
-	"github.com/aroeum-network/go-aroeum/core/types"
-	"github.com/aroeum-network/go-aroeum/core/vm"
-	"github.com/aroeum-network/go-aroeum/crypto"
-	"github.com/aroeum-network/go-aroeum/eth/tracers/logger"
-	"github.com/aroeum-network/go-aroeum/log"
-	"github.com/aroeum-network/go-aroeum/p2p"
-	"github.com/aroeum-network/go-aroeum/params"
-	"github.com/aroeum-network/go-aroeum/rlp"
-	"github.com/aroeum-network/go-aroeum/rpc"
+	"github.com/justin-0613/go-aroeum/accounts"
+	"github.com/justin-0613/go-aroeum/accounts/abi"
+	"github.com/justin-0613/go-aroeum/accounts/keystore"
+	"github.com/justin-0613/go-aroeum/accounts/scwallet"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/common/hexutil"
+	"github.com/justin-0613/go-aroeum/common/math"
+	"github.com/justin-0613/go-aroeum/consensus/ethash"
+	"github.com/justin-0613/go-aroeum/consensus/misc"
+	"github.com/justin-0613/go-aroeum/core"
+	"github.com/justin-0613/go-aroeum/core/state"
+	"github.com/justin-0613/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/core/vm"
+	"github.com/justin-0613/go-aroeum/crypto"
+	"github.com/justin-0613/go-aroeum/eth/tracers/logger"
+	"github.com/justin-0613/go-aroeum/log"
+	"github.com/justin-0613/go-aroeum/p2p"
+	"github.com/justin-0613/go-aroeum/params"
+	"github.com/justin-0613/go-aroeum/rlp"
+	"github.com/justin-0613/go-aroeum/rpc"
 	"github.com/tyler-smith/go-bip39"
 )
 
@@ -513,7 +513,7 @@ func (s *PersonalAccountAPI) SignTransaction(ctx context.Context, args Transacti
 //
 // The key used to calculate the signature is decrypted with the given password.
 //
-// https://github.com/aroeum-network/go-aroeum/wiki/Management-APIs#personal_sign
+// https://github.com/justin-0613/go-aroeum/wiki/Management-APIs#personal_sign
 func (s *PersonalAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr common.Address, passwd string) (hexutil.Bytes, error) {
 	// Look up the wallet containing the requested signer
 	account := accounts.Account{Address: addr}
@@ -541,7 +541,7 @@ func (s *PersonalAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr 
 // Note, the signature must conform to the secp256k1 curve R, S and V values, where
 // the V value must be 27 or 28 for legacy reasons.
 //
-// https://github.com/aroeum-network/go-aroeum/wiki/Management-APIs#personal_ecRecover
+// https://github.com/justin-0613/go-aroeum/wiki/Management-APIs#personal_ecRecover
 func (s *PersonalAccountAPI) EcRecover(ctx context.Context, data, sig hexutil.Bytes) (common.Address, error) {
 	if len(sig) != crypto.SignatureLength {
 		return common.Address{}, fmt.Errorf("signature must be %d bytes long", crypto.SignatureLength)
@@ -1030,7 +1030,7 @@ type revertError struct {
 }
 
 // ErrorCode returns the JSON error code for a revertal.
-// See: https://github.com/aroeum-network/wiki/wiki/JSON-RPC-Error-Codes-Improvement-Proposal
+// See: https://github.com/justin-0613/wiki/wiki/JSON-RPC-Error-Codes-Improvement-Proposal
 func (e *revertError) ErrorCode() int {
 	return 3
 }
@@ -1779,7 +1779,7 @@ func (s *TransactionAPI) SendRawTransaction(ctx context.Context, input hexutil.B
 //
 // The account associated with addr must be unlocked.
 //
-// https://github.com/aroeum-network/wiki/wiki/JSON-RPC#eth_sign
+// https://github.com/justin-0613/wiki/wiki/JSON-RPC#eth_sign
 func (s *TransactionAPI) Sign(addr common.Address, data hexutil.Bytes) (hexutil.Bytes, error) {
 	// Look up the wallet containing the requested signer
 	account := accounts.Account{Address: addr}

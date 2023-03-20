@@ -25,8 +25,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/crypto"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/crypto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

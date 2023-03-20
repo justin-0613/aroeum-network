@@ -19,7 +19,7 @@ package abi
 import (
 	"math/big"
 
-	"github.com/aroeum-network/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/common"
 )
 
 type packUnpackTest struct {

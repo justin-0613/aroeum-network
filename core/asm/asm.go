@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/aroeum-network/go-aroeum/core/vm"
+	"github.com/justin-0613/go-aroeum/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

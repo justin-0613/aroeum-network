@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/common"
 )
 
 func hexToNibbles(s string) []byte {

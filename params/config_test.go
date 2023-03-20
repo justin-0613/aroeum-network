@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/common/math"
+	"github.com/justin-0613/go-aroeum/common/math"
 )
 
 func TestCheckCompatible(t *testing.T) {

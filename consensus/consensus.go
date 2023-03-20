@@ -20,11 +20,11 @@ package consensus
 import (
 	"math/big"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/core/state"
-	"github.com/aroeum-network/go-aroeum/core/types"
-	"github.com/aroeum-network/go-aroeum/params"
-	"github.com/aroeum-network/go-aroeum/rpc"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/core/state"
+	"github.com/justin-0613/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/params"
+	"github.com/justin-0613/go-aroeum/rpc"
 )
 
 // ChainHeaderReader defines a small collection of methods needed to access the local

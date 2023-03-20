@@ -33,12 +33,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum"
-	"github.com/aroeum-network/go-aroeum/accounts"
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/core/types"
-	"github.com/aroeum-network/go-aroeum/crypto"
-	"github.com/aroeum-network/go-aroeum/log"
+	"github.com/justin-0613/go-aroeum"
+	"github.com/justin-0613/go-aroeum/accounts"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/crypto"
+	"github.com/justin-0613/go-aroeum/log"
 	pcsc "github.com/gballet/go-libpcsclite"
 	"github.com/status-im/keycard-go/derivationpath"
 )

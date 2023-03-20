@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/aroeum-network/go-aroeum/rlp"
+	"github.com/justin-0613/go-aroeum/rlp"
 )
 
 func ExampleEncoderBuffer() {

@@ -17,8 +17,8 @@
 package runtime
 
 import (
-	"github.com/aroeum-network/go-aroeum/core"
-	"github.com/aroeum-network/go-aroeum/core/vm"
+	"github.com/justin-0613/go-aroeum/core"
+	"github.com/justin-0613/go-aroeum/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

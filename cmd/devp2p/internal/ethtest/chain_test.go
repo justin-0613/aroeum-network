@@ -21,9 +21,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/core/types"
-	"github.com/aroeum-network/go-aroeum/eth/protocols/eth"
-	"github.com/aroeum-network/go-aroeum/p2p"
+	"github.com/justin-0613/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/eth/protocols/eth"
+	"github.com/justin-0613/go-aroeum/p2p"
 	"github.com/stretchr/testify/assert"
 )
 

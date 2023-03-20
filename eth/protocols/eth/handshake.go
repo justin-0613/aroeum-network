@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/core/forkid"
-	"github.com/aroeum-network/go-aroeum/p2p"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/core/forkid"
+	"github.com/justin-0613/go-aroeum/p2p"
 )
 
 const (

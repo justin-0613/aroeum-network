@@ -23,7 +23,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/p2p/simulations/pipes"
+	"github.com/justin-0613/go-aroeum/p2p/simulations/pipes"
 )
 
 func TestTCPPipe(t *testing.T) {

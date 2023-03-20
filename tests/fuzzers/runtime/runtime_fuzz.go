@@ -17,7 +17,7 @@
 package runtime
 
 import (
-	"github.com/aroeum-network/go-aroeum/core/vm/runtime"
+	"github.com/justin-0613/go-aroeum/core/vm/runtime"
 )
 
 // Fuzz is the basic entry point for the go-fuzz tool

@@ -29,10 +29,10 @@ import (
 
 	"github.com/cockroachdb/pebble"
 	"github.com/cockroachdb/pebble/bloom"
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/ethdb"
-	"github.com/aroeum-network/go-aroeum/log"
-	"github.com/aroeum-network/go-aroeum/metrics"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/ethdb"
+	"github.com/justin-0613/go-aroeum/log"
+	"github.com/justin-0613/go-aroeum/metrics"
 )
 
 const (
@@ -186,7 +186,7 @@ func New(file string, cache int, handles int, namespace string, readonly bool) (
 			WriteStallEnd:   db.onWriteStallEnd,
 		},
 	}
-	// Disable seek compaction explicitly. Check https://github.com/aroeum-network/go-aroeum/pull/20130
+	// Disable seek compaction explicitly. Check https://github.com/justin-0613/go-aroeum/pull/20130
 	// for more details.
 	opt.Experimental.ReadSamplingMultiplier = -1
 

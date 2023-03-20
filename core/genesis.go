@@ -25,18 +25,18 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/common/hexutil"
-	"github.com/aroeum-network/go-aroeum/common/math"
-	"github.com/aroeum-network/go-aroeum/core/rawdb"
-	"github.com/aroeum-network/go-aroeum/core/state"
-	"github.com/aroeum-network/go-aroeum/core/types"
-	"github.com/aroeum-network/go-aroeum/crypto"
-	"github.com/aroeum-network/go-aroeum/ethdb"
-	"github.com/aroeum-network/go-aroeum/log"
-	"github.com/aroeum-network/go-aroeum/params"
-	"github.com/aroeum-network/go-aroeum/rlp"
-	"github.com/aroeum-network/go-aroeum/trie"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/common/hexutil"
+	"github.com/justin-0613/go-aroeum/common/math"
+	"github.com/justin-0613/go-aroeum/core/rawdb"
+	"github.com/justin-0613/go-aroeum/core/state"
+	"github.com/justin-0613/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/crypto"
+	"github.com/justin-0613/go-aroeum/ethdb"
+	"github.com/justin-0613/go-aroeum/log"
+	"github.com/justin-0613/go-aroeum/params"
+	"github.com/justin-0613/go-aroeum/rlp"
+	"github.com/justin-0613/go-aroeum/trie"
 )
 
 //go:generate go run github.com/fjl/gencodec -type Genesis -field-override genesisSpecMarshaling -out gen_genesis.go
@@ -524,9 +524,9 @@ func DefaultGenesisBlock() *Genesis {
 	return &Genesis{
 		Config:     params.MainnetChainConfig,
 		Nonce:      66,
-		ExtraData:  hexutil.MustDecode("0x11bbe8db4e347b4e8c937c1c8370e4b5ed33adb3db69cbdb7a38e1e50b1b82fa"),
-		GasLimit:   5000,
-		Difficulty: big.NewInt(17179869184),
+		ExtraData:  hexutil.MustDecode("eb6f9fd1deaf58d2d9d6aa7c773ecb32e8b787d3e83fb80e85143d040fb06139"),	//by justin
+		GasLimit:   8000000,		//by justin
+		Difficulty: big.NewInt(17179),		//by jsutin
 		Alloc:      decodePrealloc(mainnetAllocData),
 	}
 }

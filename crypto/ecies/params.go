@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/aroeum-network/go-aroeum/crypto"
+	ethcrypto "github.com/justin-0613/go-aroeum/crypto"
 )
 
 var (

@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/params"
+	"github.com/justin-0613/go-aroeum/params"
 )
 
 const (

@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/aroeum-network/go-aroeum/p2p"
-	"github.com/aroeum-network/go-aroeum/p2p/nat"
-	"github.com/aroeum-network/go-aroeum/rpc"
+	"github.com/justin-0613/go-aroeum/p2p"
+	"github.com/justin-0613/go-aroeum/p2p/nat"
+	"github.com/justin-0613/go-aroeum/rpc"
 )
 
 const (

@@ -22,9 +22,9 @@
 package remotedb
 
 import (
-	"github.com/aroeum-network/go-aroeum/common/hexutil"
-	"github.com/aroeum-network/go-aroeum/ethdb"
-	"github.com/aroeum-network/go-aroeum/rpc"
+	"github.com/justin-0613/go-aroeum/common/hexutil"
+	"github.com/justin-0613/go-aroeum/ethdb"
+	"github.com/justin-0613/go-aroeum/rpc"
 )
 
 // Database is a key-value lookup for a remote database via debug_dbGet.

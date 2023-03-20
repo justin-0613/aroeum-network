@@ -23,8 +23,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/aroeum-network/go-aroeum/consensus/ethash"
-	"github.com/aroeum-network/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/consensus/ethash"
+	"github.com/justin-0613/go-aroeum/core/types"
 )
 
 type fuzzer struct {

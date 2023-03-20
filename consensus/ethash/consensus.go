@@ -25,15 +25,15 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set/v2"
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/common/math"
-	"github.com/aroeum-network/go-aroeum/consensus"
-	"github.com/aroeum-network/go-aroeum/consensus/misc"
-	"github.com/aroeum-network/go-aroeum/core/state"
-	"github.com/aroeum-network/go-aroeum/core/types"
-	"github.com/aroeum-network/go-aroeum/params"
-	"github.com/aroeum-network/go-aroeum/rlp"
-	"github.com/aroeum-network/go-aroeum/trie"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/common/math"
+	"github.com/justin-0613/go-aroeum/consensus"
+	"github.com/justin-0613/go-aroeum/consensus/misc"
+	"github.com/justin-0613/go-aroeum/core/state"
+	"github.com/justin-0613/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/params"
+	"github.com/justin-0613/go-aroeum/rlp"
+	"github.com/justin-0613/go-aroeum/trie"
 	"golang.org/x/crypto/sha3"
 )
 
@@ -41,7 +41,8 @@ import (
 var (
 	FrontierBlockReward           = big.NewInt(5e+18) // Block reward in wei for successfully mining a block
 	ByzantiumBlockReward          = big.NewInt(3e+18) // Block reward in wei for successfully mining a block upward from Byzantium
-	ConstantinopleBlockReward     = big.NewInt(2e+18) // Block reward in wei for successfully mining a block upward from Constantinople
+	ConstantinopleBlockReward     = big.NewInt(1e+18) // Block reward in wei for successfully mining a block upward from Constantinople
+	SilkFishBlockReward, _    	  = big.NewInt(0).SetString("50000000000000000000",10) // 내가만든 비단물고기 하드포크
 	maxUncles                     = 2                 // Maximum number of uncles allowed in a single block
 	allowedFutureBlockTimeSeconds = int64(15)         // Max seconds from current time allowed for blocks, before they're considered future blocks
 
@@ -366,6 +367,7 @@ var (
 	expDiffPeriod = big.NewInt(100000)
 	big1          = big.NewInt(1)
 	big2          = big.NewInt(2)
+	big5          = big.NewInt(5)
 	big9          = big.NewInt(9)
 	big10         = big.NewInt(10)
 	bigMinus99    = big.NewInt(-99)
@@ -392,9 +394,9 @@ func makeDifficultyCalculator(bombDelay *big.Int) func(time uint64, parent *type
 		x := new(big.Int)
 		y := new(big.Int)
 
-		// (2 if len(parent_uncles) else 1) - (block_timestamp - parent_timestamp) // 9
+		// (2 if len(parent_uncles) else 1) - (block_timestamp - parent_timestamp) // 5
 		x.Sub(bigTime, bigParentTime)
-		x.Div(x, big9)
+		x.Div(x, big5)
 		if parent.UncleHash == types.EmptyUncleHash {
 			x.Sub(big1, x)
 		} else {
@@ -668,6 +670,12 @@ func accumulateRewards(config *params.ChainConfig, state *state.StateDB, header 
 	if config.IsConstantinople(header.Number) {
 		blockReward = ConstantinopleBlockReward
 	}
+
+	if config.IsSilkFish(header.Number) {
+		blockReward = SilkFishBlockReward
+	}
+	
+	
 	// Accumulate the rewards for the miner and any included uncles
 	reward := new(big.Int).Set(blockReward)
 	r := new(big.Int)

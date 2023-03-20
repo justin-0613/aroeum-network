@@ -19,7 +19,7 @@ package server
 import (
 	"reflect"
 
-	"github.com/aroeum-network/go-aroeum/p2p/nodestate"
+	"github.com/justin-0613/go-aroeum/p2p/nodestate"
 )
 
 type peerWrapper struct{ clientPeer } // the NodeStateMachine type system needs this wrapper

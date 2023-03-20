@@ -21,8 +21,8 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/aroeum-network/go-aroeum/common/hexutil"
-	"github.com/aroeum-network/go-aroeum/p2p/enode"
+	"github.com/justin-0613/go-aroeum/common/hexutil"
+	"github.com/justin-0613/go-aroeum/p2p/enode"
 )
 
 func TestParseRoot(t *testing.T) {

@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/aroeum-network/go-aroeum/metrics"
-	"github.com/aroeum-network/go-aroeum/p2p"
+	"github.com/justin-0613/go-aroeum/metrics"
+	"github.com/justin-0613/go-aroeum/p2p"
 )
 
 var (

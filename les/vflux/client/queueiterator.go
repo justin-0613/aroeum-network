@@ -19,8 +19,8 @@ package client
 import (
 	"sync"
 
-	"github.com/aroeum-network/go-aroeum/p2p/enode"
-	"github.com/aroeum-network/go-aroeum/p2p/nodestate"
+	"github.com/justin-0613/go-aroeum/p2p/enode"
+	"github.com/justin-0613/go-aroeum/p2p/nodestate"
 )
 
 // QueueIterator returns nodes from the specified selectable set in the same order as

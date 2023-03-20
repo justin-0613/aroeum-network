@@ -16,7 +16,7 @@
 
 package params
 
-import "github.com/aroeum-network/go-aroeum/common"
+import "github.com/justin-0613/go-aroeum/common"
 
 // MainnetBootnodes are the enode URLs of the P2P bootstrap nodes running on
 // the main Aroeum network.
@@ -82,7 +82,7 @@ var V5Bootnodes = []string{
 const dnsPrefix = "enrtree://AKA3AM6LPBYEUDMVNU3BSVQJ5AD45Y7YPOHJLEF6W26QOE4VTUDPE@"
 
 // KnownDNSNetwork returns the address of a public DNS-based node list for the given
-// genesis hash and protocol. See https://github.com/aroeum-network/discv4-dns-lists for more
+// genesis hash and protocol. See https://github.com/justin-0613/discv4-dns-lists for more
 // information.
 func KnownDNSNetwork(genesis common.Hash, protocol string) string {
 	var net string

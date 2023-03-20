@@ -19,10 +19,10 @@ package keystore
 import (
 	"math/big"
 
-	"github.com/aroeum-network/go-aroeum"
-	"github.com/aroeum-network/go-aroeum/accounts"
-	"github.com/aroeum-network/go-aroeum/core/types"
-	"github.com/aroeum-network/go-aroeum/crypto"
+	"github.com/justin-0613/go-aroeum"
+	"github.com/justin-0613/go-aroeum/accounts"
+	"github.com/justin-0613/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/crypto"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

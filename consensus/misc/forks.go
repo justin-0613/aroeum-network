@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/core/types"
-	"github.com/aroeum-network/go-aroeum/params"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

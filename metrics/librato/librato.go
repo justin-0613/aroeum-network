@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/metrics"
+	"github.com/justin-0613/go-aroeum/metrics"
 )
 
 // a regexp for extracting the unit from time.Duration.String

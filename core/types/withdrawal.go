@@ -19,9 +19,9 @@ package types
 import (
 	"bytes"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/common/hexutil"
-	"github.com/aroeum-network/go-aroeum/rlp"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/common/hexutil"
+	"github.com/justin-0613/go-aroeum/rlp"
 )
 
 //go:generate go run github.com/fjl/gencodec -type Withdrawal -field-override withdrawalMarshaling -out gen_withdrawal_json.go

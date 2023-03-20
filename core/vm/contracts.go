@@ -22,13 +22,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/common/math"
-	"github.com/aroeum-network/go-aroeum/crypto"
-	"github.com/aroeum-network/go-aroeum/crypto/blake2b"
-	"github.com/aroeum-network/go-aroeum/crypto/bls12381"
-	"github.com/aroeum-network/go-aroeum/crypto/bn256"
-	"github.com/aroeum-network/go-aroeum/params"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/common/math"
+	"github.com/justin-0613/go-aroeum/crypto"
+	"github.com/justin-0613/go-aroeum/crypto/blake2b"
+	"github.com/justin-0613/go-aroeum/crypto/bls12381"
+	"github.com/justin-0613/go-aroeum/crypto/bn256"
+	"github.com/justin-0613/go-aroeum/params"
 	"golang.org/x/crypto/ripemd160"
 )
 

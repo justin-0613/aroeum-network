@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/aroeum-network/go-aroeum/core/vm"
-	"github.com/aroeum-network/go-aroeum/tests"
+	"github.com/justin-0613/go-aroeum/core/vm"
+	"github.com/justin-0613/go-aroeum/tests"
 	"github.com/urfave/cli/v2"
 )
 

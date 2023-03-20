@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/params"
+	"github.com/justin-0613/go-aroeum/params"
 )
 
 func TestTransaction(t *testing.T) {

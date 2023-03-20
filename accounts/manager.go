@@ -21,8 +21,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/event"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/event"
 )
 
 // managerSubBufferSize determines how many incoming wallet events

@@ -16,7 +16,7 @@
 
 package trie
 
-import "github.com/aroeum-network/go-aroeum/common"
+import "github.com/justin-0613/go-aroeum/common"
 
 // ID is the identifier for uniquely identifying a trie.
 type ID struct {

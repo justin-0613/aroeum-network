@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/aroeum-network/go-aroeum/signer/core/apitypes"
-	"github.com/aroeum-network/go-aroeum/signer/fourbyte"
+	"github.com/justin-0613/go-aroeum/signer/core/apitypes"
+	"github.com/justin-0613/go-aroeum/signer/fourbyte"
 )
 
 func init() {

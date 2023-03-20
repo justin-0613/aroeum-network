@@ -19,7 +19,7 @@ package keystore
 import (
 	"os"
 
-	"github.com/aroeum-network/go-aroeum/accounts/keystore"
+	"github.com/justin-0613/go-aroeum/accounts/keystore"
 )
 
 func Fuzz(input []byte) int {

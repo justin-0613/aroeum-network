@@ -21,7 +21,7 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/aroeum-network/go-aroeum/rlp"
+	"github.com/justin-0613/go-aroeum/rlp"
 )
 
 var ErrNoReply = errors.New("no reply for given request")

@@ -24,7 +24,7 @@ import (
 	"os"
 	"runtime/trace"
 
-	"github.com/aroeum-network/go-aroeum/log"
+	"github.com/justin-0613/go-aroeum/log"
 )
 
 // StartGoTrace turns on tracing, writing to the given file.

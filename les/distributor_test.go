@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/common/mclock"
+	"github.com/justin-0613/go-aroeum/common/mclock"
 )
 
 type testDistReq struct {

@@ -17,10 +17,10 @@
 package eth
 
 import (
-	"github.com/aroeum-network/go-aroeum/core"
-	"github.com/aroeum-network/go-aroeum/core/forkid"
-	"github.com/aroeum-network/go-aroeum/p2p/enode"
-	"github.com/aroeum-network/go-aroeum/rlp"
+	"github.com/justin-0613/go-aroeum/core"
+	"github.com/justin-0613/go-aroeum/core/forkid"
+	"github.com/justin-0613/go-aroeum/p2p/enode"
+	"github.com/justin-0613/go-aroeum/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `eth` protocol on the discovery.

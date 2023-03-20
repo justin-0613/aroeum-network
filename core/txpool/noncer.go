@@ -19,8 +19,8 @@ package txpool
 import (
 	"sync"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/core/state"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/core/state"
 )
 
 // noncer is a tiny virtual state database to manage the executable nonces of

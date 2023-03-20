@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/rpc"
+	"github.com/justin-0613/go-aroeum/rpc"
 )
 
 // This example configures a HTTP-based RPC client with two options - one setting the

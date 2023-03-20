@@ -17,7 +17,7 @@
 package snap
 
 import (
-	"github.com/aroeum-network/go-aroeum/rlp"
+	"github.com/justin-0613/go-aroeum/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `snap` protocol on the discovery.

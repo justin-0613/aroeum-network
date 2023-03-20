@@ -22,8 +22,8 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/aroeum-network/go-aroeum/cmd/evm/internal/t8ntool"
-	"github.com/aroeum-network/go-aroeum/internal/flags"
+	"github.com/justin-0613/go-aroeum/cmd/evm/internal/t8ntool"
+	"github.com/justin-0613/go-aroeum/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

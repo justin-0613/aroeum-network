@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/common"
 )
 
 func (g *G2) one() *PointG2 {

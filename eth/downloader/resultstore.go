@@ -21,7 +21,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/aroeum-network/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/core/types"
 )
 
 // resultStore implements a structure for maintaining fetchResults, tracking their

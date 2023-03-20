@@ -21,8 +21,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/accounts/abi"
-	"github.com/aroeum-network/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/accounts/abi"
+	"github.com/justin-0613/go-aroeum/common"
 )
 
 // Tests that all the selectors contained in the 4byte database are valid.

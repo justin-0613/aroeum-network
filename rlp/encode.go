@@ -23,7 +23,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/aroeum-network/go-aroeum/rlp/internal/rlpstruct"
+	"github.com/justin-0613/go-aroeum/rlp/internal/rlpstruct"
 	"github.com/holiman/uint256"
 )
 

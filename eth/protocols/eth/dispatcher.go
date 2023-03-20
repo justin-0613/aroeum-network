@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/p2p"
+	"github.com/justin-0613/go-aroeum/p2p"
 )
 
 var (

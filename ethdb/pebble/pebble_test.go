@@ -23,8 +23,8 @@ import (
 
 	"github.com/cockroachdb/pebble"
 	"github.com/cockroachdb/pebble/vfs"
-	"github.com/aroeum-network/go-aroeum/ethdb"
-	"github.com/aroeum-network/go-aroeum/ethdb/dbtest"
+	"github.com/justin-0613/go-aroeum/ethdb"
+	"github.com/justin-0613/go-aroeum/ethdb/dbtest"
 )
 
 func TestPebbleDB(t *testing.T) {

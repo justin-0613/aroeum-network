@@ -19,7 +19,7 @@ package miner
 import (
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/core/types"
 )
 
 // noopChainRetriever is an implementation of headerRetriever that always

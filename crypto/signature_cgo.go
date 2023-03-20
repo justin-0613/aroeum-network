@@ -24,8 +24,8 @@ import (
 	"crypto/elliptic"
 	"fmt"
 
-	"github.com/aroeum-network/go-aroeum/common/math"
-	"github.com/aroeum-network/go-aroeum/crypto/secp256k1"
+	"github.com/justin-0613/go-aroeum/common/math"
+	"github.com/justin-0613/go-aroeum/crypto/secp256k1"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

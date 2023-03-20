@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/aroeum-network/go-aroeum/accounts"
-	"github.com/aroeum-network/go-aroeum/accounts/abi/bind"
-	"github.com/aroeum-network/go-aroeum/accounts/external"
-	"github.com/aroeum-network/go-aroeum/cmd/utils"
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/contracts/checkpointoracle"
-	"github.com/aroeum-network/go-aroeum/ethclient"
-	"github.com/aroeum-network/go-aroeum/params"
-	"github.com/aroeum-network/go-aroeum/rpc"
+	"github.com/justin-0613/go-aroeum/accounts"
+	"github.com/justin-0613/go-aroeum/accounts/abi/bind"
+	"github.com/justin-0613/go-aroeum/accounts/external"
+	"github.com/justin-0613/go-aroeum/cmd/utils"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/contracts/checkpointoracle"
+	"github.com/justin-0613/go-aroeum/ethclient"
+	"github.com/justin-0613/go-aroeum/params"
+	"github.com/justin-0613/go-aroeum/rpc"
 	"github.com/urfave/cli/v2"
 )
 

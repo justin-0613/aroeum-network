@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/core/state"
-	"github.com/aroeum-network/go-aroeum/core/vm"
-	"github.com/aroeum-network/go-aroeum/params"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/core/state"
+	"github.com/justin-0613/go-aroeum/core/vm"
+	"github.com/justin-0613/go-aroeum/params"
 )
 
 type dummyContractRef struct {
@@ -76,7 +76,7 @@ func TestStoreCapture(t *testing.T) {
 }
 
 // Tests that blank fields don't appear in logs when JSON marshalled, to reduce
-// logs bloat and confusion. See https://github.com/aroeum-network/go-aroeum/issues/24487
+// logs bloat and confusion. See https://github.com/justin-0613/go-aroeum/issues/24487
 func TestStructLogMarshalingOmitEmpty(t *testing.T) {
 	tests := []struct {
 		name string

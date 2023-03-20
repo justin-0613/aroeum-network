@@ -27,11 +27,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/common/mclock"
-	"github.com/aroeum-network/go-aroeum/internal/testlog"
-	"github.com/aroeum-network/go-aroeum/log"
-	"github.com/aroeum-network/go-aroeum/p2p/enode"
-	"github.com/aroeum-network/go-aroeum/p2p/netutil"
+	"github.com/justin-0613/go-aroeum/common/mclock"
+	"github.com/justin-0613/go-aroeum/internal/testlog"
+	"github.com/justin-0613/go-aroeum/log"
+	"github.com/justin-0613/go-aroeum/p2p/enode"
+	"github.com/justin-0613/go-aroeum/p2p/netutil"
 )
 
 // This test checks that dynamic dials are launched from discovery results.

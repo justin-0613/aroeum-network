@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/aroeum-network/go-aroeum/rlp"
+	"github.com/justin-0613/go-aroeum/rlp"
 )
 
 type MyCoolType struct {

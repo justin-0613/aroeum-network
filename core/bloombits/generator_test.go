@@ -22,7 +22,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

@@ -19,7 +19,7 @@ package downloader
 import (
 	"fmt"
 
-	"github.com/aroeum-network/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/core/types"
 )
 
 // peerDropFn is a callback type for dropping a peer detected as malicious.

@@ -150,7 +150,7 @@ All hex encoded values must be prefixed with `0x`.
 
 #### Create new password protected account
 
-The signer will generate a new private key, encrypt it according to [web3 keystore spec](https://github.com/aroeum-network/wiki/wiki/Web3-Secret-Storage-Definition) and store it in the keystore directory.  
+The signer will generate a new private key, encrypt it according to [web3 keystore spec](https://github.com/justin-0613/wiki/wiki/Web3-Secret-Storage-Definition) and store it in the keystore directory.  
 The client is responsible for creating a backup of the keystore. If the keystore is lost there is no method of retrieving lost accounts.
 
 #### Arguments
@@ -919,4 +919,4 @@ There are a couple of implementation for a UI. We'll try to keep this list up to
 | QtSigner| https://github.com/holiman/qtsigner/| Python3/QT-based| :+1:| :+1:| :+1:| :+1:| :+1:| :x: |  :+1: (partially)|
 | GtkSigner| https://github.com/holiman/gtksigner| Python3/GTK-based| :+1:| :x:| :x:| :+1:| :+1:| :x: |  :x: |
 | Frame | https://github.com/floating/frame/commits/go-signer| Electron-based| :x:| :x:| :x:| :x:| ?| :x: |  :x: |
-| Clef UI| https://github.com/aroeum-network/clef-ui| Golang/QT-based| :+1:| :+1:| :x:| :+1:| :+1:| :x: |  :+1: (approve tx only)|
+| Clef UI| https://github.com/justin-0613/clef-ui| Golang/QT-based| :+1:| :+1:| :x:| :+1:| :+1:| :x: |  :+1: (approve tx only)|

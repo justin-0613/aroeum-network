@@ -16,7 +16,7 @@
 
 package ethtest
 
-import "github.com/aroeum-network/go-aroeum/eth/protocols/snap"
+import "github.com/justin-0613/go-aroeum/eth/protocols/snap"
 
 // GetAccountRange represents an account range query.
 type GetAccountRange snap.GetAccountRangePacket

@@ -25,12 +25,12 @@ import (
 	"time"
 
 	"github.com/dop251/goja"
-	"github.com/aroeum-network/go-aroeum/accounts/scwallet"
-	"github.com/aroeum-network/go-aroeum/accounts/usbwallet"
-	"github.com/aroeum-network/go-aroeum/common/hexutil"
-	"github.com/aroeum-network/go-aroeum/console/prompt"
-	"github.com/aroeum-network/go-aroeum/internal/jsre"
-	"github.com/aroeum-network/go-aroeum/rpc"
+	"github.com/justin-0613/go-aroeum/accounts/scwallet"
+	"github.com/justin-0613/go-aroeum/accounts/usbwallet"
+	"github.com/justin-0613/go-aroeum/common/hexutil"
+	"github.com/justin-0613/go-aroeum/console/prompt"
+	"github.com/justin-0613/go-aroeum/internal/jsre"
+	"github.com/justin-0613/go-aroeum/rpc"
 )
 
 // bridge is a collection of JavaScript utility methods to bride the .js runtime

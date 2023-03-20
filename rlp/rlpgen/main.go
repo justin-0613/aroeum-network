@@ -27,7 +27,7 @@ import (
 	"golang.org/x/tools/go/packages"
 )
 
-const pathOfPackageRLP = "github.com/aroeum-network/go-aroeum/rlp"
+const pathOfPackageRLP = "github.com/justin-0613/go-aroeum/rlp"
 
 func main() {
 	var (

@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/crypto"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/crypto"
 )
 
 // The ABI holds information about a contract's context and available

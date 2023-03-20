@@ -19,8 +19,8 @@
 package rawdb
 
 import (
-	"github.com/aroeum-network/go-aroeum/ethdb"
-	"github.com/aroeum-network/go-aroeum/ethdb/pebble"
+	"github.com/justin-0613/go-aroeum/ethdb"
+	"github.com/justin-0613/go-aroeum/ethdb/pebble"
 )
 
 // Pebble is unsuported on 32bit architecture

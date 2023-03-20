@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/crypto"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/crypto"
 )
 
 // Event is an event potentially triggered by the EVM's LOG mechanism. The Event

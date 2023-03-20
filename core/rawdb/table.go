@@ -17,7 +17,7 @@
 package rawdb
 
 import (
-	"github.com/aroeum-network/go-aroeum/ethdb"
+	"github.com/justin-0613/go-aroeum/ethdb"
 )
 
 // table is a wrapper around a database that prefixes each key access with a pre-

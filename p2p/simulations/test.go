@@ -19,10 +19,10 @@ package simulations
 import (
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/p2p"
-	"github.com/aroeum-network/go-aroeum/p2p/enode"
-	"github.com/aroeum-network/go-aroeum/p2p/enr"
-	"github.com/aroeum-network/go-aroeum/rpc"
+	"github.com/justin-0613/go-aroeum/p2p"
+	"github.com/justin-0613/go-aroeum/p2p/enode"
+	"github.com/justin-0613/go-aroeum/p2p/enr"
+	"github.com/justin-0613/go-aroeum/rpc"
 )
 
 // NoopService is the service that does not do anything

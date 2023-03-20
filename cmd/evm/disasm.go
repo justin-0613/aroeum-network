@@ -22,7 +22,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/aroeum-network/go-aroeum/core/asm"
+	"github.com/justin-0613/go-aroeum/core/asm"
 	"github.com/urfave/cli/v2"
 )
 

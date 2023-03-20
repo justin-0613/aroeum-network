@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/core/types"
-	"github.com/aroeum-network/go-aroeum/internal/testlog"
-	"github.com/aroeum-network/go-aroeum/log"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/internal/testlog"
+	"github.com/justin-0613/go-aroeum/log"
 )
 
 // Tests whether remote HTTP servers are correctly notified of new work.

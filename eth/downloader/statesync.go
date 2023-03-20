@@ -19,8 +19,8 @@ package downloader
 import (
 	"sync"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/log"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/log"
 )
 
 // syncState starts downloading state with the given root hash.

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/aroeum-network/go-aroeum/tests/fuzzers/snap"
+	"github.com/justin-0613/go-aroeum/tests/fuzzers/snap"
 )
 
 func main() {

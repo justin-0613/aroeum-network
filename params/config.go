@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/aroeum-network/go-aroeum/common"
+	"github.com/ethereum/go-aroeum/common"
 	"golang.org/x/crypto/sha3"
 )
 
@@ -57,47 +57,50 @@ var (
 
 	// MainnetChainConfig is the chain parameters to run a node on the main network.
 	MainnetChainConfig = &ChainConfig{
-		ChainID:                       big.NewInt(1),
-		HomesteadBlock:                big.NewInt(1_150_000),
-		DAOForkBlock:                  big.NewInt(1_920_000),
+		ChainID:                       big.NewInt(8090),		//justin
+		HomesteadBlock:                big.NewInt(0),
+		DAOForkBlock:                  big.NewInt(0),
 		DAOForkSupport:                true,
-		EIP150Block:                   big.NewInt(2_463_000),
-		EIP150Hash:                    common.HexToHash("0x2086799aeebeae135c246c65021c82b4e15a2c451340993aacfd2751886514f0"),
-		EIP155Block:                   big.NewInt(2_675_000),
-		EIP158Block:                   big.NewInt(2_675_000),
-		ByzantiumBlock:                big.NewInt(4_370_000),
-		ConstantinopleBlock:           big.NewInt(7_280_000),
-		PetersburgBlock:               big.NewInt(7_280_000),
-		IstanbulBlock:                 big.NewInt(9_069_000),
-		MuirGlacierBlock:              big.NewInt(9_200_000),
-		BerlinBlock:                   big.NewInt(12_244_000),
-		LondonBlock:                   big.NewInt(12_965_000),
-		ArrowGlacierBlock:             big.NewInt(13_773_000),
-		GrayGlacierBlock:              big.NewInt(15_050_000),
-		TerminalTotalDifficulty:       MainnetTerminalTotalDifficulty, // 58_750_000_000_000_000_000_000
-		TerminalTotalDifficultyPassed: true,
+		EIP150Block:                   big.NewInt(0),
+		EIP150Hash:                    common.Hash{},
+		EIP155Block:                   big.NewInt(0),
+		EIP158Block:                   big.NewInt(0),
+		ByzantiumBlock:                big.NewInt(0),
+		ConstantinopleBlock:           big.NewInt(0),
+		PetersburgBlock:               big.NewInt(0),
+		IstanbulBlock:                 big.NewInt(0),
+		MuirGlacierBlock:              big.NewInt(0),
+		BerlinBlock:                   big.NewInt(0),
+		LondonBlock:                   big.NewInt(0),
+		ArrowGlacierBlock:             big.NewInt(0),
+		GrayGlacierBlock:              big.NewInt(0),
+		SilkFishBlock:                 big.NewInt(100),
+		TerminalTotalDifficulty:       nil,			//justin
+		TerminalTotalDifficultyPassed: false,		//justin
 		Ethash:                        new(EthashConfig),
 	}
 
 	// MainnetTrustedCheckpoint contains the light client trusted checkpoint for the main network.
 	MainnetTrustedCheckpoint = &TrustedCheckpoint{
-		SectionIndex: 506,
-		SectionHead:  common.HexToHash("0x3d1a139a6fc7764211236ef7c64d9e8c1fe55b358d7414e25277bac1144486cd"),
-		CHTRoot:      common.HexToHash("0xef7fc3321a239a54238593bdf68d82933d903cb533b0d03228a8d958cd35ea77"),
-		BloomRoot:    common.HexToHash("0x51d7bfe7c6397b1caa8b1cb046de4aeaf7e7fbd3fb6c726b60bf750de78809e8"),
+		//by justin
+		// SectionIndex: 506,
+		// SectionHead:  common.HexToHash("0x3d1a139a6fc7764211236ef7c64d9e8c1fe55b358d7414e25277bac1144486cd"),
+		// CHTRoot:      common.HexToHash("0xef7fc3321a239a54238593bdf68d82933d903cb533b0d03228a8d958cd35ea77"),
+		// BloomRoot:    common.HexToHash("0x51d7bfe7c6397b1caa8b1cb046de4aeaf7e7fbd3fb6c726b60bf750de78809e8"),
 	}
 
 	// MainnetCheckpointOracle contains a set of configs for the main network oracle.
 	MainnetCheckpointOracle = &CheckpointOracleConfig{
-		Address: common.HexToAddress("0x9a9070028361F7AAbeB3f2F2Dc07F82C4a98A02a"),
-		Signers: []common.Address{
-			common.HexToAddress("0x1b2C260efc720BE89101890E4Db589b44E950527"), // Peter
-			common.HexToAddress("0x78d1aD571A1A09D60D9BBf25894b44e4C8859595"), // Martin
-			common.HexToAddress("0x286834935f4A8Cfb4FF4C77D5770C2775aE2b0E7"), // Zsolt
-			common.HexToAddress("0xb86e2B0Ab5A4B1373e40c51A7C712c70Ba2f9f8E"), // Gary
-			common.HexToAddress("0x0DF8fa387C602AE62559cC4aFa4972A7045d6707"), // Guillaume
-		},
-		Threshold: 2,
+		//by justin
+		// Address: common.HexToAddress("0x9a9070028361F7AAbeB3f2F2Dc07F82C4a98A02a"),
+		// Signers: []common.Address{
+		// 	common.HexToAddress("0x1b2C260efc720BE89101890E4Db589b44E950527"), // Peter
+		// 	common.HexToAddress("0x78d1aD571A1A09D60D9BBf25894b44e4C8859595"), // Martin
+		// 	common.HexToAddress("0x286834935f4A8Cfb4FF4C77D5770C2775aE2b0E7"), // Zsolt
+		// 	common.HexToAddress("0xb86e2B0Ab5A4B1373e40c51A7C712c70Ba2f9f8E"), // Gary
+		// 	common.HexToAddress("0x0DF8fa387C602AE62559cC4aFa4972A7045d6707"), // Guillaume
+		// },
+		// Threshold: 2,
 	}
 
 	// SepoliaChainConfig contains the chain parameters to run a node on the Sepolia test network.
@@ -242,6 +245,7 @@ var (
 		LondonBlock:                   big.NewInt(0),
 		ArrowGlacierBlock:             big.NewInt(0),
 		GrayGlacierBlock:              big.NewInt(0),
+		SilkFishBlock:            	   big.NewInt(0),
 		MergeNetsplitBlock:            nil,
 		ShanghaiTime:                  nil,
 		CancunTime:                    nil,
@@ -272,6 +276,7 @@ var (
 		LondonBlock:                   big.NewInt(0),
 		ArrowGlacierBlock:             nil,
 		GrayGlacierBlock:              nil,
+		SilkFishBlock:            	   big.NewInt(0),
 		MergeNetsplitBlock:            nil,
 		ShanghaiTime:                  nil,
 		CancunTime:                    nil,
@@ -302,6 +307,7 @@ var (
 		LondonBlock:                   big.NewInt(0),
 		ArrowGlacierBlock:             big.NewInt(0),
 		GrayGlacierBlock:              big.NewInt(0),
+		SilkFishBlock:            	   big.NewInt(0),
 		MergeNetsplitBlock:            nil,
 		ShanghaiTime:                  nil,
 		CancunTime:                    nil,
@@ -332,6 +338,7 @@ var (
 		LondonBlock:                   nil,
 		ArrowGlacierBlock:             nil,
 		GrayGlacierBlock:              nil,
+		SilkFishBlock:            	   nil,
 		MergeNetsplitBlock:            nil,
 		ShanghaiTime:                  nil,
 		CancunTime:                    nil,
@@ -429,6 +436,7 @@ type ChainConfig struct {
 	LondonBlock         *big.Int `json:"londonBlock,omitempty"`         // London switch block (nil = no fork, 0 = already on london)
 	ArrowGlacierBlock   *big.Int `json:"arrowGlacierBlock,omitempty"`   // Eip-4345 (bomb delay) switch block (nil = no fork, 0 = already activated)
 	GrayGlacierBlock    *big.Int `json:"grayGlacierBlock,omitempty"`    // Eip-5133 (bomb delay) switch block (nil = no fork, 0 = already activated)
+	SilkFishBlock  	    *big.Int `json:"silkFishBlock,omitempty"`  		// 비단 물고기 
 	MergeNetsplitBlock  *big.Int `json:"mergeNetsplitBlock,omitempty"`  // Virtual fork after The Merge to use as a network splitter
 
 	// Fork scheduling was switched from blocks to timestamps here
@@ -506,37 +514,43 @@ func (c *ChainConfig) Description() string {
 	// makes sense for mainnet should be optional at printing to avoid bloating
 	// the output for testnets and private networks.
 	banner += "Pre-Merge hard forks (block based):\n"
-	banner += fmt.Sprintf(" - Homestead:                   #%-8v (https://github.com/aroeum-network/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md)\n", c.HomesteadBlock)
+	banner += fmt.Sprintf(" - Homestead:                   #%-8v (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md)\n", c.HomesteadBlock)
 	if c.DAOForkBlock != nil {
-		banner += fmt.Sprintf(" - DAO Fork:                    #%-8v (https://github.com/aroeum-network/execution-specs/blob/master/network-upgrades/mainnet-upgrades/dao-fork.md)\n", c.DAOForkBlock)
+		banner += fmt.Sprintf(" - DAO Fork:                    #%-8v (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/dao-fork.md)\n", c.DAOForkBlock)
 	}
-	banner += fmt.Sprintf(" - Tangerine Whistle (EIP 150): #%-8v (https://github.com/aroeum-network/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md)\n", c.EIP150Block)
-	banner += fmt.Sprintf(" - Spurious Dragon/1 (EIP 155): #%-8v (https://github.com/aroeum-network/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)\n", c.EIP155Block)
-	banner += fmt.Sprintf(" - Spurious Dragon/2 (EIP 158): #%-8v (https://github.com/aroeum-network/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)\n", c.EIP155Block)
-	banner += fmt.Sprintf(" - Byzantium:                   #%-8v (https://github.com/aroeum-network/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md)\n", c.ByzantiumBlock)
-	banner += fmt.Sprintf(" - Constantinople:              #%-8v (https://github.com/aroeum-network/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md)\n", c.ConstantinopleBlock)
-	banner += fmt.Sprintf(" - Petersburg:                  #%-8v (https://github.com/aroeum-network/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md)\n", c.PetersburgBlock)
-	banner += fmt.Sprintf(" - Istanbul:                    #%-8v (https://github.com/aroeum-network/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md)\n", c.IstanbulBlock)
+	banner += fmt.Sprintf(" - Tangerine Whistle (EIP 150): #%-8v (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md)\n", c.EIP150Block)
+	banner += fmt.Sprintf(" - Spurious Dragon/1 (EIP 155): #%-8v (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)\n", c.EIP155Block)
+	banner += fmt.Sprintf(" - Spurious Dragon/2 (EIP 158): #%-8v (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)\n", c.EIP155Block)
+	banner += fmt.Sprintf(" - Byzantium:                   #%-8v (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md)\n", c.ByzantiumBlock)
+	banner += fmt.Sprintf(" - Constantinople:              #%-8v (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md)\n", c.ConstantinopleBlock)
+	banner += fmt.Sprintf(" - Petersburg:                  #%-8v (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md)\n", c.PetersburgBlock)
+	banner += fmt.Sprintf(" - Istanbul:                    #%-8v (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md)\n", c.IstanbulBlock)
 	if c.MuirGlacierBlock != nil {
-		banner += fmt.Sprintf(" - Muir Glacier:                #%-8v (https://github.com/aroeum-network/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md)\n", c.MuirGlacierBlock)
+		banner += fmt.Sprintf(" - Muir Glacier:                #%-8v (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md)\n", c.MuirGlacierBlock)
 	}
-	banner += fmt.Sprintf(" - Berlin:                      #%-8v (https://github.com/aroeum-network/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md)\n", c.BerlinBlock)
-	banner += fmt.Sprintf(" - London:                      #%-8v (https://github.com/aroeum-network/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md)\n", c.LondonBlock)
+	banner += fmt.Sprintf(" - Berlin:                      #%-8v (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md)\n", c.BerlinBlock)
+	banner += fmt.Sprintf(" - London:                      #%-8v (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md)\n", c.LondonBlock)
 	if c.ArrowGlacierBlock != nil {
-		banner += fmt.Sprintf(" - Arrow Glacier:               #%-8v (https://github.com/aroeum-network/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md)\n", c.ArrowGlacierBlock)
+		banner += fmt.Sprintf(" - Arrow Glacier:               #%-8v (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md)\n", c.ArrowGlacierBlock)
 	}
 	if c.GrayGlacierBlock != nil {
-		banner += fmt.Sprintf(" - Gray Glacier:                #%-8v (https://github.com/aroeum-network/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md)\n", c.GrayGlacierBlock)
+		banner += fmt.Sprintf(" - Gray Glacier:                #%-8v (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md)\n", c.GrayGlacierBlock)
 	}
 	banner += "\n"
+
+
+	if c.SlikFishBlock != nil {
+		banner += fmt.Sprintf(" - Slik Fish:                #%-8v (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md)\n", c.SlikFishBlock)
+	}
+	banner += "\n"	
 
 	// Add a special section for the merge as it's non-obvious
 	if c.TerminalTotalDifficulty == nil {
 		banner += "The Merge is not yet available for this network!\n"
-		banner += " - Hard-fork specification: https://github.com/aroeum-network/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md\n"
+		banner += " - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md\n"
 	} else {
 		banner += "Merge configured:\n"
-		banner += " - Hard-fork specification:    https://github.com/aroeum-network/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md\n"
+		banner += " - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md\n"
 		banner += fmt.Sprintf(" - Network known to be merged: %v\n", c.TerminalTotalDifficultyPassed)
 		banner += fmt.Sprintf(" - Total terminal difficulty:  %v\n", c.TerminalTotalDifficulty)
 		if c.MergeNetsplitBlock != nil {
@@ -548,7 +562,7 @@ func (c *ChainConfig) Description() string {
 	// Create a list of forks post-merge
 	banner += "Post-Merge hard forks (timestamp based):\n"
 	if c.ShanghaiTime != nil {
-		banner += fmt.Sprintf(" - Shanghai:                    @%-10v (https://github.com/aroeum-network/execution-specs/blob/master/network-upgrades/mainnet-upgrades/shanghai.md)\n", *c.ShanghaiTime)
+		banner += fmt.Sprintf(" - Shanghai:                    @%-10v (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/shanghai.md)\n", *c.ShanghaiTime)
 	}
 	if c.CancunTime != nil {
 		banner += fmt.Sprintf(" - Cancun:                      @%-10v\n", *c.CancunTime)
@@ -631,6 +645,11 @@ func (c *ChainConfig) IsGrayGlacier(num *big.Int) bool {
 	return isBlockForked(c.GrayGlacierBlock, num)
 }
 
+// IsSilkFish returns whether num is either equal fork block or greater.
+func (c *ChainConfig) IsSilkFish(num *big.Int) bool {
+	return isBlockForked(c.SilkFishBlock, num)
+}
+
 // IsTerminalPoWBlock returns whether the given block is the last block of PoW stage.
 func (c *ChainConfig) IsTerminalPoWBlock(parentTotalDiff *big.Int, totalDiff *big.Int) bool {
 	if c.TerminalTotalDifficulty == nil {
@@ -704,6 +723,7 @@ func (c *ChainConfig) CheckConfigForkOrder() error {
 		{name: "londonBlock", block: c.LondonBlock},
 		{name: "arrowGlacierBlock", block: c.ArrowGlacierBlock, optional: true},
 		{name: "grayGlacierBlock", block: c.GrayGlacierBlock, optional: true},
+		{name: "silkFishBlock", block: c.SinkFishBlock},						//by justin
 		{name: "mergeNetsplitBlock", block: c.MergeNetsplitBlock, optional: true},
 		{name: "shanghaiTime", timestamp: c.ShanghaiTime},
 		{name: "cancunTime", timestamp: c.CancunTime, optional: true},
@@ -799,6 +819,9 @@ func (c *ChainConfig) checkCompatible(newcfg *ChainConfig, headNumber *big.Int, 
 	if isForkBlockIncompatible(c.GrayGlacierBlock, newcfg.GrayGlacierBlock, headNumber) {
 		return newBlockCompatError("Gray Glacier fork block", c.GrayGlacierBlock, newcfg.GrayGlacierBlock)
 	}
+	if isForkBlockIncompatible(c.SilkFishBlock, newcfg.SilkFishBlock, headNumber) {
+		return newBlockCompatError("Silk Fish fork block", c.SilkFishBlock, newcfg.SilkFishBlock)
+	}	
 	if isForkBlockIncompatible(c.MergeNetsplitBlock, newcfg.MergeNetsplitBlock, headNumber) {
 		return newBlockCompatError("Merge netsplit fork block", c.MergeNetsplitBlock, newcfg.MergeNetsplitBlock)
 	}
@@ -955,6 +978,7 @@ type Rules struct {
 	IsHomestead, IsEIP150, IsEIP155, IsEIP158               bool
 	IsByzantium, IsConstantinople, IsPetersburg, IsIstanbul bool
 	IsBerlin, IsLondon                                      bool
+	IsSilkFish                                              bool
 	IsMerge, IsShanghai, isCancun, isPrague                 bool
 }
 
@@ -976,6 +1000,7 @@ func (c *ChainConfig) Rules(num *big.Int, isMerge bool, timestamp uint64) Rules 
 		IsIstanbul:       c.IsIstanbul(num),
 		IsBerlin:         c.IsBerlin(num),
 		IsLondon:         c.IsLondon(num),
+		IsSilkFish:       c.IsSilkFish(num),
 		IsMerge:          isMerge,
 		IsShanghai:       c.IsShanghai(timestamp),
 		isCancun:         c.IsCancun(timestamp),

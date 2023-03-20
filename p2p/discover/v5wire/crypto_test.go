@@ -25,9 +25,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/common/hexutil"
-	"github.com/aroeum-network/go-aroeum/crypto"
-	"github.com/aroeum-network/go-aroeum/p2p/enode"
+	"github.com/justin-0613/go-aroeum/common/hexutil"
+	"github.com/justin-0613/go-aroeum/crypto"
+	"github.com/justin-0613/go-aroeum/p2p/enode"
 )
 
 func TestVector_ECDH(t *testing.T) {

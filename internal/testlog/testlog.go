@@ -21,7 +21,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/log"
+	"github.com/justin-0613/go-aroeum/log"
 )
 
 // Handler returns a log handler which logs to the unit test log of t.

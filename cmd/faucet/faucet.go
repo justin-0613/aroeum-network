@@ -39,24 +39,24 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/accounts"
-	"github.com/aroeum-network/go-aroeum/accounts/keystore"
-	"github.com/aroeum-network/go-aroeum/cmd/utils"
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/core"
-	"github.com/aroeum-network/go-aroeum/core/types"
-	"github.com/aroeum-network/go-aroeum/eth/downloader"
-	"github.com/aroeum-network/go-aroeum/eth/ethconfig"
-	"github.com/aroeum-network/go-aroeum/ethclient"
-	"github.com/aroeum-network/go-aroeum/ethstats"
-	"github.com/aroeum-network/go-aroeum/internal/version"
-	"github.com/aroeum-network/go-aroeum/les"
-	"github.com/aroeum-network/go-aroeum/log"
-	"github.com/aroeum-network/go-aroeum/node"
-	"github.com/aroeum-network/go-aroeum/p2p"
-	"github.com/aroeum-network/go-aroeum/p2p/enode"
-	"github.com/aroeum-network/go-aroeum/p2p/nat"
-	"github.com/aroeum-network/go-aroeum/params"
+	"github.com/justin-0613/go-aroeum/accounts"
+	"github.com/justin-0613/go-aroeum/accounts/keystore"
+	"github.com/justin-0613/go-aroeum/cmd/utils"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/core"
+	"github.com/justin-0613/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/eth/downloader"
+	"github.com/justin-0613/go-aroeum/eth/ethconfig"
+	"github.com/justin-0613/go-aroeum/ethclient"
+	"github.com/justin-0613/go-aroeum/ethstats"
+	"github.com/justin-0613/go-aroeum/internal/version"
+	"github.com/justin-0613/go-aroeum/les"
+	"github.com/justin-0613/go-aroeum/log"
+	"github.com/justin-0613/go-aroeum/node"
+	"github.com/justin-0613/go-aroeum/p2p"
+	"github.com/justin-0613/go-aroeum/p2p/enode"
+	"github.com/justin-0613/go-aroeum/p2p/nat"
+	"github.com/justin-0613/go-aroeum/params"
 	"github.com/gorilla/websocket"
 )
 
@@ -463,7 +463,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			id = username
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/aroeum-network/go-aroeum/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/justin-0613/go-aroeum/issues")
 		}
 		if err != nil {
 			if err = sendError(wsconn, err); err != nil {

@@ -16,7 +16,7 @@
 
 package downloader
 
-import "github.com/aroeum-network/go-aroeum/core/types"
+import "github.com/justin-0613/go-aroeum/core/types"
 
 type DoneEvent struct {
 	Latest *types.Header

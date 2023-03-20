@@ -15,7 +15,7 @@
 package secp256k1
 
 import (
-	_ "github.com/aroeum-network/go-aroeum/crypto/secp256k1/libsecp256k1/include"
-	_ "github.com/aroeum-network/go-aroeum/crypto/secp256k1/libsecp256k1/src"
-	_ "github.com/aroeum-network/go-aroeum/crypto/secp256k1/libsecp256k1/src/modules/recovery"
+	_ "github.com/justin-0613/go-aroeum/crypto/secp256k1/libsecp256k1/include"
+	_ "github.com/justin-0613/go-aroeum/crypto/secp256k1/libsecp256k1/src"
+	_ "github.com/justin-0613/go-aroeum/crypto/secp256k1/libsecp256k1/src/modules/recovery"
 )

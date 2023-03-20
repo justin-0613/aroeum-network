@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/eth/protocols/eth"
-	"github.com/aroeum-network/go-aroeum/eth/protocols/snap"
-	"github.com/aroeum-network/go-aroeum/p2p"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/eth/protocols/eth"
+	"github.com/justin-0613/go-aroeum/eth/protocols/snap"
+	"github.com/justin-0613/go-aroeum/p2p"
 )
 
 var (

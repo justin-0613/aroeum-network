@@ -20,7 +20,7 @@
 package metrics
 
 import (
-	"github.com/aroeum-network/go-aroeum/log"
+	"github.com/justin-0613/go-aroeum/log"
 	"github.com/shirou/gopsutil/cpu"
 )
 

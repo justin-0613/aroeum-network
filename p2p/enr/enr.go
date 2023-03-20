@@ -40,7 +40,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/aroeum-network/go-aroeum/rlp"
+	"github.com/justin-0613/go-aroeum/rlp"
 )
 
 const SizeLimit = 300 // maximum encoded size of a node record in bytes

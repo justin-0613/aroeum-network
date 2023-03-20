@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/aroeum-network/go-aroeum/event"
+	"github.com/justin-0613/go-aroeum/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

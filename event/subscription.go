@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/common/mclock"
+	"github.com/justin-0613/go-aroeum/common/mclock"
 )
 
 // Subscription represents a stream of events. The carrier of the events is typically a

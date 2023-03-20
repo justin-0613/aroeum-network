@@ -1,4 +1,4 @@
-module github.com/aroeum-network/go-aroeum
+module github.com/justin-0613/go-aroeum
 
 go 1.19
 

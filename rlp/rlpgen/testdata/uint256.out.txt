@@ -1,6 +1,6 @@
 package test
 
-import "github.com/aroeum-network/go-aroeum/rlp"
+import "github.com/justin-0613/go-aroeum/rlp"
 import "github.com/holiman/uint256"
 import "io"
 

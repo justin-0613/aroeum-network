@@ -28,9 +28,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/accounts/keystore"
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/accounts/keystore"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/core/types"
 )
 
 // Tests that the account management snippets work correctly.

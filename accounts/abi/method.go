@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/aroeum-network/go-aroeum/crypto"
+	"github.com/justin-0613/go-aroeum/crypto"
 )
 
 // FunctionType represents different types of functions a contract might have.

@@ -22,7 +22,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/common"
 )
 
 // TestExport does a basic test of "garo export", exporting the test-genesis.

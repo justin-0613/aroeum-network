@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/log"
-	"github.com/aroeum-network/go-aroeum/metrics"
+	"github.com/justin-0613/go-aroeum/log"
+	"github.com/justin-0613/go-aroeum/metrics"
 )
 
 const (

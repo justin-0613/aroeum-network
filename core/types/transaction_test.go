@@ -28,13 +28,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/crypto"
-	"github.com/aroeum-network/go-aroeum/rlp"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/crypto"
+	"github.com/justin-0613/go-aroeum/rlp"
 )
 
 // The values in those tests are from the Transaction Tests
-// at github.com/aroeum-network/tests.
+// at github.com/justin-0613/tests.
 var (
 	testAddr = common.HexToAddress("b94f5374fce5edbc8e2a8697c15331677e6ebf0b")
 

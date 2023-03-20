@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/ethdb"
+	"github.com/justin-0613/go-aroeum/ethdb"
 )
 
 func TestTableDatabase(t *testing.T)            { testTableDatabase(t, "prefix") }

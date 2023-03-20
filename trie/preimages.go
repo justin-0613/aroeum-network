@@ -19,9 +19,9 @@ package trie
 import (
 	"sync"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/core/rawdb"
-	"github.com/aroeum-network/go-aroeum/ethdb"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/core/rawdb"
+	"github.com/justin-0613/go-aroeum/ethdb"
 )
 
 // preimageStore is the store for caching preimages of node key.

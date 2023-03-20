@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/aroeum-network/go-aroeum/common/math"
-	"github.com/aroeum-network/go-aroeum/core/vm"
+	"github.com/justin-0613/go-aroeum/common/math"
+	"github.com/justin-0613/go-aroeum/core/vm"
 )
 
 // Compiler contains information about the parsed source

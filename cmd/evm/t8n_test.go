@@ -25,8 +25,8 @@ import (
 	"testing"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/aroeum-network/go-aroeum/cmd/evm/internal/t8ntool"
-	"github.com/aroeum-network/go-aroeum/internal/cmdtest"
+	"github.com/justin-0613/go-aroeum/cmd/evm/internal/t8ntool"
+	"github.com/justin-0613/go-aroeum/internal/cmdtest"
 )
 
 func TestMain(m *testing.M) {

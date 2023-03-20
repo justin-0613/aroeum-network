@@ -19,9 +19,9 @@ package simulations
 import (
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/node"
-	"github.com/aroeum-network/go-aroeum/p2p/enode"
-	"github.com/aroeum-network/go-aroeum/p2p/simulations/adapters"
+	"github.com/justin-0613/go-aroeum/node"
+	"github.com/justin-0613/go-aroeum/p2p/enode"
+	"github.com/justin-0613/go-aroeum/p2p/simulations/adapters"
 )
 
 func newTestNetwork(t *testing.T, nodeCount int) (*Network, []enode.ID) {

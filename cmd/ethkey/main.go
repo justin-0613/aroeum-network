@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/aroeum-network/go-aroeum/internal/flags"
+	"github.com/justin-0613/go-aroeum/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

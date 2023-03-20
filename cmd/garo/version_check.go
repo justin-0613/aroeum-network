@@ -26,7 +26,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/aroeum-network/go-aroeum/log"
+	"github.com/justin-0613/go-aroeum/log"
 	"github.com/jedisct1/go-minisign"
 	"github.com/urfave/cli/v2"
 )

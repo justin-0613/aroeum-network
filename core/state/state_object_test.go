@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/common"
 )
 
 func BenchmarkCutOriginal(b *testing.B) {

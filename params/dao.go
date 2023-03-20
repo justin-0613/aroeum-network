@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/aroeum-network/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/common"
 )
 
 // DAOForkBlockExtra is the block header extra-data field to set for the DAO fork

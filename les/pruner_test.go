@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/core"
-	"github.com/aroeum-network/go-aroeum/light"
+	"github.com/justin-0613/go-aroeum/core"
+	"github.com/justin-0613/go-aroeum/light"
 )
 
 func TestLightPruner(t *testing.T) {

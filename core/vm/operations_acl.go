@@ -19,9 +19,9 @@ package vm
 import (
 	"errors"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/common/math"
-	"github.com/aroeum-network/go-aroeum/params"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/common/math"
+	"github.com/justin-0613/go-aroeum/params"
 )
 
 func makeGasSStoreFunc(clearingRefund uint64) gasFunc {

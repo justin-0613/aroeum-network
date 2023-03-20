@@ -19,7 +19,7 @@ package trie
 import (
 	"fmt"
 
-	"github.com/aroeum-network/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/common"
 )
 
 // Reader wraps the Node and NodeBlob method of a backing trie store.

@@ -20,8 +20,8 @@
 package node
 
 import (
-	"github.com/aroeum-network/go-aroeum/p2p"
-	"github.com/aroeum-network/go-aroeum/rpc"
+	"github.com/justin-0613/go-aroeum/p2p"
+	"github.com/justin-0613/go-aroeum/rpc"
 )
 
 // NoopLifecycle is a trivial implementation of the Service interface.

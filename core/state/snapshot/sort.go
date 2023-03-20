@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/aroeum-network/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/common"
 )
 
 // hashes is a helper to implement sort.Interface.

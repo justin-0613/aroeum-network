@@ -23,7 +23,7 @@ import (
 	"go/types"
 	"sort"
 
-	"github.com/aroeum-network/go-aroeum/rlp/internal/rlpstruct"
+	"github.com/justin-0613/go-aroeum/rlp/internal/rlpstruct"
 )
 
 // buildContext keeps the data needed for make*Op.

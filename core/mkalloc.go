@@ -33,8 +33,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/aroeum-network/go-aroeum/core"
-	"github.com/aroeum-network/go-aroeum/rlp"
+	"github.com/justin-0613/go-aroeum/core"
+	"github.com/justin-0613/go-aroeum/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

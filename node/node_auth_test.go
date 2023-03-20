@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/common/hexutil"
-	"github.com/aroeum-network/go-aroeum/rpc"
+	"github.com/justin-0613/go-aroeum/common/hexutil"
+	"github.com/justin-0613/go-aroeum/rpc"
 	"github.com/golang-jwt/jwt/v4"
 )
 

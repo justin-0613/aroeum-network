@@ -23,7 +23,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/ethdb"
+	"github.com/justin-0613/go-aroeum/ethdb"
 )
 
 // TestDatabaseSuite runs a suite of tests against a KeyValueStore database

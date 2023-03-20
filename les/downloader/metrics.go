@@ -19,7 +19,7 @@
 package downloader
 
 import (
-	"github.com/aroeum-network/go-aroeum/metrics"
+	"github.com/justin-0613/go-aroeum/metrics"
 )
 
 var (

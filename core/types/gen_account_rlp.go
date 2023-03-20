@@ -5,7 +5,7 @@
 
 package types
 
-import "github.com/aroeum-network/go-aroeum/rlp"
+import "github.com/justin-0613/go-aroeum/rlp"
 import "io"
 
 func (obj *StateAccount) EncodeRLP(_w io.Writer) error {

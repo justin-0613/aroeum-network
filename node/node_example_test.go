@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/aroeum-network/go-aroeum/node"
+	"github.com/justin-0613/go-aroeum/node"
 )
 
 // SampleLifecycle is a trivial network service that can be attached to a node for

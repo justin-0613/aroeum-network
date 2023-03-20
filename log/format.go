@@ -24,7 +24,7 @@ const (
 
 // locationTrims are trimmed for display to avoid unwieldy log lines.
 var locationTrims = []string{
-	"github.com/aroeum-network/go-aroeum/",
+	"github.com/justin-0613/go-aroeum/",
 }
 
 // PrintOrigins sets or unsets log location (file:line) printing for terminal

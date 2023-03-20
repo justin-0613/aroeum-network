@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/common/hexutil"
+	"github.com/justin-0613/go-aroeum/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

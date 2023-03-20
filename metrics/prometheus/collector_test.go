@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/metrics"
+	"github.com/justin-0613/go-aroeum/metrics"
 )
 
 func TestMain(m *testing.M) {

@@ -21,8 +21,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/crypto"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/crypto"
 )
 
 func TestBloom(t *testing.T) {

@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/aroeum-network/go-aroeum/core/asm"
+	"github.com/justin-0613/go-aroeum/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

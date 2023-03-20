@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/aroeum-network/go-aroeum/common/hexutil"
+	"github.com/justin-0613/go-aroeum/common/hexutil"
 )
 
 type MyType [5]byte

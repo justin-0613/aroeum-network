@@ -23,11 +23,11 @@ import (
 	"strings"
 
 	"github.com/dop251/goja"
-	"github.com/aroeum-network/go-aroeum/internal/ethapi"
-	"github.com/aroeum-network/go-aroeum/internal/jsre/deps"
-	"github.com/aroeum-network/go-aroeum/log"
-	"github.com/aroeum-network/go-aroeum/signer/core"
-	"github.com/aroeum-network/go-aroeum/signer/storage"
+	"github.com/justin-0613/go-aroeum/internal/ethapi"
+	"github.com/justin-0613/go-aroeum/internal/jsre/deps"
+	"github.com/justin-0613/go-aroeum/log"
+	"github.com/justin-0613/go-aroeum/signer/core"
+	"github.com/justin-0613/go-aroeum/signer/storage"
 )
 
 // consoleOutput is an override for the console.log and console.error methods to

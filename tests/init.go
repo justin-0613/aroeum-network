@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/aroeum-network/go-aroeum/params"
+	"github.com/justin-0613/go-aroeum/params"
 )
 
 func u64(val uint64) *uint64 { return &val }

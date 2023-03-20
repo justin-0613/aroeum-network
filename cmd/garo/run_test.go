@@ -24,8 +24,8 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/aroeum-network/go-aroeum/internal/cmdtest"
-	"github.com/aroeum-network/go-aroeum/rpc"
+	"github.com/justin-0613/go-aroeum/internal/cmdtest"
+	"github.com/justin-0613/go-aroeum/rpc"
 )
 
 type testgaro struct {

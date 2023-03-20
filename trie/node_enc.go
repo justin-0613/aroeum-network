@@ -17,7 +17,7 @@
 package trie
 
 import (
-	"github.com/aroeum-network/go-aroeum/rlp"
+	"github.com/justin-0613/go-aroeum/rlp"
 )
 
 func nodeToBytes(n node) []byte {

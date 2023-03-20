@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/aroeum-network/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/common"
 )
 
 // EVMLogger is used to collect execution traces from an EVM transaction

@@ -19,7 +19,7 @@ package netutil
 import (
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/common/mclock"
+	"github.com/justin-0613/go-aroeum/common/mclock"
 )
 
 // IPTracker predicts the external endpoint, i.e. IP address and port, of the local host

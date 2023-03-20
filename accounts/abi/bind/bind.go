@@ -17,7 +17,7 @@
 // Package bind generates Aroeum contract Go bindings.
 //
 // Detailed usage document and tutorial available on the go-aroeum Wiki page:
-// https://github.com/aroeum-network/go-aroeum/wiki/Native-DApps:-Go-bindings-to-Aroeum-contracts
+// https://github.com/justin-0613/go-aroeum/wiki/Native-DApps:-Go-bindings-to-Aroeum-contracts
 package bind
 
 import (
@@ -29,8 +29,8 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/aroeum-network/go-aroeum/accounts/abi"
-	"github.com/aroeum-network/go-aroeum/log"
+	"github.com/justin-0613/go-aroeum/accounts/abi"
+	"github.com/justin-0613/go-aroeum/log"
 )
 
 // Lang is a target programming language selector to generate bindings for.

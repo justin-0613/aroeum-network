@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

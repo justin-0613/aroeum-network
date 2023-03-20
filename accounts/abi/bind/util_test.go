@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/accounts/abi/bind"
-	"github.com/aroeum-network/go-aroeum/accounts/abi/bind/backends"
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/core"
-	"github.com/aroeum-network/go-aroeum/core/types"
-	"github.com/aroeum-network/go-aroeum/crypto"
+	"github.com/justin-0613/go-aroeum/accounts/abi/bind"
+	"github.com/justin-0613/go-aroeum/accounts/abi/bind/backends"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/core"
+	"github.com/justin-0613/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/crypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

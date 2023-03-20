@@ -4,8 +4,8 @@ Official Golang execution layer implementation of the Aroeum protocol.
 
 [![API Reference](
 https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f676f6c616e672f6764646f3f7374617475732e737667
-)](https://pkg.go.dev/github.com/aroeum-network/go-aroeum?tab=doc)
-[![Go Report Card](https://goreportcard.com/badge/github.com/aroeum-network/go-aroeum)](https://goreportcard.com/report/github.com/aroeum-network/go-aroeum)
+)](https://pkg.go.dev/github.com/justin-0613/go-aroeum?tab=doc)
+[![Go Report Card](https://goreportcard.com/badge/github.com/justin-0613/go-aroeum)](https://goreportcard.com/report/github.com/justin-0613/go-aroeum)
 [![Travis](https://travis-ci.com/aroeum/go-aroeum.svg?branch=master)](https://travis-ci.com/aroeum/go-aroeum)
 [![Discord](https://img.shields.io/badge/discord-join%20chat-blue.svg)](https://discord.gg/nthXNEv)
 
@@ -353,7 +353,7 @@ testing procedures.
 ### Contributing to garo.ethereum.org
 
 For contributions to the [go-aroeum website](https://garo.ethereum.org), please checkout and raise pull requests against the `website` branch.
-For more detailed instructions please see the `website` branch [README](https://github.com/aroeum-network/go-aroeum/tree/website#readme) or the 
+For more detailed instructions please see the `website` branch [README](https://github.com/justin-0613/go-aroeum/tree/website#readme) or the 
 [contributing](https://garo.ethereum.org/docs/developers/garo-developer/contributing) page of the website.
 
 ## License

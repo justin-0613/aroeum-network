@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/common/mclock"
-	"github.com/aroeum-network/go-aroeum/common/prque"
+	"github.com/justin-0613/go-aroeum/common/mclock"
+	"github.com/justin-0613/go-aroeum/common/prque"
 )
 
 // cmNodeFields are ClientNode fields used by the client manager

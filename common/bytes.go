@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"errors"
 
-	"github.com/aroeum-network/go-aroeum/common/hexutil"
+	"github.com/justin-0613/go-aroeum/common/hexutil"
 )
 
 // FromHex returns the bytes represented by the hexadecimal string s.

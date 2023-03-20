@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/rpc"
+	"github.com/justin-0613/go-aroeum/rpc"
 	"github.com/stretchr/testify/assert"
 )
 

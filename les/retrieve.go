@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/light"
+	"github.com/justin-0613/go-aroeum/light"
 )
 
 var (

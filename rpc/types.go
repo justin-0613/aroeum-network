@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/common/hexutil"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/common/hexutil"
 )
 
 // API describes the set of methods offered over the RPC interface

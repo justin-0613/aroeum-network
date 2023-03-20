@@ -17,10 +17,10 @@
 package les
 
 import (
-	"github.com/aroeum-network/go-aroeum/core/forkid"
-	"github.com/aroeum-network/go-aroeum/p2p/dnsdisc"
-	"github.com/aroeum-network/go-aroeum/p2p/enode"
-	"github.com/aroeum-network/go-aroeum/rlp"
+	"github.com/justin-0613/go-aroeum/core/forkid"
+	"github.com/justin-0613/go-aroeum/p2p/dnsdisc"
+	"github.com/justin-0613/go-aroeum/p2p/enode"
+	"github.com/justin-0613/go-aroeum/rlp"
 )
 
 // lesEntry is the "les" ENR entry. This is set for LES servers only.

@@ -29,7 +29,7 @@ import (
 	"testing/quick"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/aroeum-network/go-aroeum/metrics"
+	"github.com/justin-0613/go-aroeum/metrics"
 	"github.com/stretchr/testify/require"
 )
 

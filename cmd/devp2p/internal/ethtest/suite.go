@@ -19,10 +19,10 @@ package ethtest
 import (
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/eth/protocols/eth"
-	"github.com/aroeum-network/go-aroeum/internal/utesting"
-	"github.com/aroeum-network/go-aroeum/p2p/enode"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/eth/protocols/eth"
+	"github.com/justin-0613/go-aroeum/internal/utesting"
+	"github.com/justin-0613/go-aroeum/p2p/enode"
 )
 
 // Suite represents a structure used to test a node's conformance

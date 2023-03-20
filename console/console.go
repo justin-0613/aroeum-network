@@ -30,12 +30,12 @@ import (
 	"syscall"
 
 	"github.com/dop251/goja"
-	"github.com/aroeum-network/go-aroeum/console/prompt"
-	"github.com/aroeum-network/go-aroeum/internal/jsre"
-	"github.com/aroeum-network/go-aroeum/internal/jsre/deps"
-	"github.com/aroeum-network/go-aroeum/internal/web3ext"
-	"github.com/aroeum-network/go-aroeum/log"
-	"github.com/aroeum-network/go-aroeum/rpc"
+	"github.com/justin-0613/go-aroeum/console/prompt"
+	"github.com/justin-0613/go-aroeum/internal/jsre"
+	"github.com/justin-0613/go-aroeum/internal/jsre/deps"
+	"github.com/justin-0613/go-aroeum/internal/web3ext"
+	"github.com/justin-0613/go-aroeum/log"
+	"github.com/justin-0613/go-aroeum/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 )

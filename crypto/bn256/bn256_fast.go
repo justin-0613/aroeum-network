@@ -9,7 +9,7 @@
 package bn256
 
 import (
-	bn256cf "github.com/aroeum-network/go-aroeum/crypto/bn256/cloudflare"
+	bn256cf "github.com/justin-0613/go-aroeum/crypto/bn256/cloudflare"
 )
 
 // G1 is an abstract cyclic group. The zero value is suitable for use as the

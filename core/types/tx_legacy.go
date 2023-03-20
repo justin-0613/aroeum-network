@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/aroeum-network/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/common"
 )
 
 // LegacyTx is the transaction data of regular Aroeum transactions.

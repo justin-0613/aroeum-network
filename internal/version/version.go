@@ -23,10 +23,10 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/aroeum-network/go-aroeum/params"
+	"github.com/justin-0613/go-aroeum/params"
 )
 
-const ourPath = "github.com/aroeum-network/go-aroeum" // Path to our module
+const ourPath = "github.com/justin-0613/go-aroeum" // Path to our module
 
 // These variables are set at build-time by the linker when the build is
 // done by build/ci.go.

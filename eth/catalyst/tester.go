@@ -20,11 +20,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/core/types"
-	"github.com/aroeum-network/go-aroeum/eth"
-	"github.com/aroeum-network/go-aroeum/eth/downloader"
-	"github.com/aroeum-network/go-aroeum/log"
-	"github.com/aroeum-network/go-aroeum/node"
+	"github.com/justin-0613/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/eth"
+	"github.com/justin-0613/go-aroeum/eth/downloader"
+	"github.com/justin-0613/go-aroeum/log"
+	"github.com/justin-0613/go-aroeum/node"
 )
 
 // FullSyncTester is an auxiliary service that allows Garo to perform full sync

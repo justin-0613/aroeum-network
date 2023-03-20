@@ -19,8 +19,8 @@ package beacon
 import (
 	"math/big"
 
-	"github.com/aroeum-network/go-aroeum/consensus"
-	"github.com/aroeum-network/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/consensus"
+	"github.com/justin-0613/go-aroeum/core/types"
 )
 
 // NewFaker creates a fake consensus engine for testing.

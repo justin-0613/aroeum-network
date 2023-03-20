@@ -25,10 +25,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/core/forkid"
-	"github.com/aroeum-network/go-aroeum/p2p/enr"
-	"github.com/aroeum-network/go-aroeum/params"
-	"github.com/aroeum-network/go-aroeum/rlp"
+	"github.com/justin-0613/go-aroeum/core/forkid"
+	"github.com/justin-0613/go-aroeum/p2p/enr"
+	"github.com/justin-0613/go-aroeum/params"
+	"github.com/justin-0613/go-aroeum/rlp"
 	"github.com/urfave/cli/v2"
 )
 

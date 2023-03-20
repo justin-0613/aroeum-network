@@ -17,9 +17,9 @@
 package core
 
 import (
-	"github.com/aroeum-network/go-aroeum/core/state"
-	"github.com/aroeum-network/go-aroeum/core/types"
-	"github.com/aroeum-network/go-aroeum/core/vm"
+	"github.com/justin-0613/go-aroeum/core/state"
+	"github.com/justin-0613/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

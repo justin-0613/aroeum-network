@@ -134,7 +134,7 @@ replacing `<enode>` with the enode of the garo node:
  devp2p rlpx eth66-test <enode> cmd/devp2p/internal/ethtest/testdata/chain.rlp cmd/devp2p/internal/ethtest/testdata/genesis.json
 ```
 
-[eth]: https://github.com/aroeum-network/devp2p/blob/master/caps/eth.md
+[eth]: https://github.com/justin-0613/devp2p/blob/master/caps/eth.md
 [dns-tutorial]: https://garo.ethereum.org/docs/developers/garo-developer/dns-discovery-setup
-[discv4]: https://github.com/aroeum-network/devp2p/tree/master/discv4.md
-[discv5]: https://github.com/aroeum-network/devp2p/tree/master/discv5/discv5.md
+[discv4]: https://github.com/justin-0613/devp2p/tree/master/discv4.md
+[discv5]: https://github.com/justin-0613/devp2p/tree/master/discv5/discv5.md

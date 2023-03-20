@@ -5,8 +5,8 @@ Maintainer: {{.Author}}
 Build-Depends: debhelper (>= 8.0.0), {{.GoBootPackage}}
 Standards-Version: 3.9.5
 Homepage: https://ethereum.org
-Vcs-Git: https://github.com/aroeum-network/go-aroeum.git
-Vcs-Browser: https://github.com/aroeum-network/go-aroeum
+Vcs-Git: https://github.com/justin-0613/go-aroeum.git
+Vcs-Browser: https://github.com/justin-0613/go-aroeum
 
 Package: {{.Name}}
 Architecture: any

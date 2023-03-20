@@ -20,8 +20,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/aroeum-network/go-aroeum/log"
-	"github.com/aroeum-network/go-aroeum/rlp"
+	"github.com/justin-0613/go-aroeum/log"
+	"github.com/justin-0613/go-aroeum/rlp"
 )
 
 const freezerVersion = 1 // The initial version tag of freezer table metadata

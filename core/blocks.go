@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/aroeum-network/go-aroeum/common"
+import "github.com/justin-0613/go-aroeum/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

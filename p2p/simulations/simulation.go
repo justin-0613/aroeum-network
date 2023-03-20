@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/p2p/enode"
+	"github.com/justin-0613/go-aroeum/p2p/enode"
 )
 
 // Simulation provides a framework for running actions in a simulated network

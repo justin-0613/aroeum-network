@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/accounts/abi"
-	"github.com/aroeum-network/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/accounts/abi"
+	"github.com/justin-0613/go-aroeum/common"
 )
 
 func verify(t *testing.T, jsondata, calldata string, exp []interface{}) {

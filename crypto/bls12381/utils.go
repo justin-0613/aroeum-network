@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/aroeum-network/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/common"
 )
 
 func bigFromHex(hex string) *big.Int {

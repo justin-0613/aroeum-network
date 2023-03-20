@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/core/rawdb"
-	"github.com/aroeum-network/go-aroeum/rlp"
+	"github.com/justin-0613/go-aroeum/core/rawdb"
+	"github.com/justin-0613/go-aroeum/rlp"
 )
 
 // TestExport does basic sanity checks on the export/import functionality

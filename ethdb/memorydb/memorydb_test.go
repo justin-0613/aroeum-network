@@ -19,8 +19,8 @@ package memorydb
 import (
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/ethdb"
-	"github.com/aroeum-network/go-aroeum/ethdb/dbtest"
+	"github.com/justin-0613/go-aroeum/ethdb"
+	"github.com/justin-0613/go-aroeum/ethdb/dbtest"
 )
 
 func TestMemoryDB(t *testing.T) {

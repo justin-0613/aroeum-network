@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/aroeum-network/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/common"
 )
 
 // binaryIterator is a simplistic iterator to step over the accounts or storage

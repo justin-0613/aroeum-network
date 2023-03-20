@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/aroeum-network/go-aroeum/log"
-	"github.com/aroeum-network/go-aroeum/tests"
+	"github.com/justin-0613/go-aroeum/log"
+	"github.com/justin-0613/go-aroeum/tests"
 	"github.com/urfave/cli/v2"
 )
 

@@ -19,8 +19,8 @@ package state
 import (
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/core/rawdb"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/core/rawdb"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

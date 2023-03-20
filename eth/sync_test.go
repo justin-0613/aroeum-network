@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/eth/downloader"
-	"github.com/aroeum-network/go-aroeum/eth/protocols/eth"
-	"github.com/aroeum-network/go-aroeum/eth/protocols/snap"
-	"github.com/aroeum-network/go-aroeum/p2p"
-	"github.com/aroeum-network/go-aroeum/p2p/enode"
+	"github.com/justin-0613/go-aroeum/eth/downloader"
+	"github.com/justin-0613/go-aroeum/eth/protocols/eth"
+	"github.com/justin-0613/go-aroeum/eth/protocols/snap"
+	"github.com/justin-0613/go-aroeum/p2p"
+	"github.com/justin-0613/go-aroeum/p2p/enode"
 )
 
 // Tests that snap sync is disabled after a successful sync cycle.

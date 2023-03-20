@@ -19,8 +19,8 @@ package eth
 import (
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/common/bitutil"
-	"github.com/aroeum-network/go-aroeum/core/rawdb"
+	"github.com/justin-0613/go-aroeum/common/bitutil"
+	"github.com/justin-0613/go-aroeum/core/rawdb"
 )
 
 const (

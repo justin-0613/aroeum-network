@@ -26,7 +26,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/common/math"
+	"github.com/justin-0613/go-aroeum/common/math"
 	"github.com/holiman/uint256"
 )
 

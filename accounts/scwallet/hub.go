@@ -41,10 +41,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/accounts"
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/event"
-	"github.com/aroeum-network/go-aroeum/log"
+	"github.com/justin-0613/go-aroeum/accounts"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/event"
+	"github.com/justin-0613/go-aroeum/log"
 	pcsc "github.com/gballet/go-libpcsclite"
 )
 

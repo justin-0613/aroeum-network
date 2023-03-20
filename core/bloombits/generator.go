@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/aroeum-network/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/core/types"
 )
 
 var (

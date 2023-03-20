@@ -23,10 +23,10 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/crypto"
-	"github.com/aroeum-network/go-aroeum/p2p/discover/v4wire"
-	"github.com/aroeum-network/go-aroeum/p2p/enode"
-	"github.com/aroeum-network/go-aroeum/p2p/enr"
+	"github.com/justin-0613/go-aroeum/crypto"
+	"github.com/justin-0613/go-aroeum/p2p/discover/v4wire"
+	"github.com/justin-0613/go-aroeum/p2p/enode"
+	"github.com/justin-0613/go-aroeum/p2p/enr"
 )
 
 func TestUDPv4_Lookup(t *testing.T) {

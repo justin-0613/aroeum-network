@@ -22,10 +22,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/internal/utesting"
-	"github.com/aroeum-network/go-aroeum/p2p/discover/v5wire"
-	"github.com/aroeum-network/go-aroeum/p2p/enode"
-	"github.com/aroeum-network/go-aroeum/p2p/netutil"
+	"github.com/justin-0613/go-aroeum/internal/utesting"
+	"github.com/justin-0613/go-aroeum/p2p/discover/v5wire"
+	"github.com/justin-0613/go-aroeum/p2p/enode"
+	"github.com/justin-0613/go-aroeum/p2p/netutil"
 )
 
 // Suite is the discv5 test suite.

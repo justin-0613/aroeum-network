@@ -19,7 +19,7 @@ package bitutil
 import (
 	"bytes"
 
-	"github.com/aroeum-network/go-aroeum/common/bitutil"
+	"github.com/justin-0613/go-aroeum/common/bitutil"
 )
 
 // Fuzz implements a go-fuzz fuzzer method to test various encoding method

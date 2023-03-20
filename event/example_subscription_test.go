@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/aroeum-network/go-aroeum/event"
+	"github.com/justin-0613/go-aroeum/event"
 )
 
 func ExampleNewSubscription() {

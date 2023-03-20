@@ -17,9 +17,9 @@
 package eth
 
 import (
-	"github.com/aroeum-network/go-aroeum/core"
-	"github.com/aroeum-network/go-aroeum/eth/protocols/snap"
-	"github.com/aroeum-network/go-aroeum/p2p/enode"
+	"github.com/justin-0613/go-aroeum/core"
+	"github.com/justin-0613/go-aroeum/eth/protocols/snap"
+	"github.com/justin-0613/go-aroeum/p2p/enode"
 )
 
 // snapHandler implements the snap.Backend interface to handle the various network

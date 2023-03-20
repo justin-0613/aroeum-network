@@ -22,7 +22,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/aroeum-network/go-aroeum/rlp"
+	"github.com/justin-0613/go-aroeum/rlp"
 )
 
 // Entry is implemented by known node record entry types.

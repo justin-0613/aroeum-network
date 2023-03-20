@@ -19,8 +19,8 @@ package trie
 import (
 	"testing"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/core/rawdb"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/core/rawdb"
 )
 
 // Tests that the trie database returns a missing trie node error if attempting

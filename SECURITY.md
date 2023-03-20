@@ -2,24 +2,24 @@
 
 ## Supported Versions
 
-Please see [Releases](https://github.com/aroeum-network/go-aroeum/releases). We recommend using the [most recently released version](https://github.com/aroeum-network/go-aroeum/releases/latest).
+Please see [Releases](https://github.com/justin-0613/go-aroeum/releases). We recommend using the [most recently released version](https://github.com/justin-0613/go-aroeum/releases/latest).
 
 ## Audit reports
 
-Audit reports are published in the `docs` folder: https://github.com/aroeum-network/go-aroeum/tree/master/docs/audits 
+Audit reports are published in the `docs` folder: https://github.com/justin-0613/go-aroeum/tree/master/docs/audits 
 
 | Scope | Date | Report Link |
 | ------- | ------- | ----------- |
-| `garo` | 20170425 | [pdf](https://github.com/aroeum-network/go-aroeum/blob/master/docs/audits/2017-04-25_Garo-audit_Truesec.pdf) |
-| `clef` | 20180914 | [pdf](https://github.com/aroeum-network/go-aroeum/blob/master/docs/audits/2018-09-14_Clef-audit_NCC.pdf) |
-| `Discv5` | 20191015 | [pdf](https://github.com/aroeum-network/go-aroeum/blob/master/docs/audits/2019-10-15_Discv5_audit_LeastAuthority.pdf) |
-| `Discv5` | 20200124 | [pdf](https://github.com/aroeum-network/go-aroeum/blob/master/docs/audits/2020-01-24_DiscV5_audit_Cure53.pdf) |
+| `garo` | 20170425 | [pdf](https://github.com/justin-0613/go-aroeum/blob/master/docs/audits/2017-04-25_Garo-audit_Truesec.pdf) |
+| `clef` | 20180914 | [pdf](https://github.com/justin-0613/go-aroeum/blob/master/docs/audits/2018-09-14_Clef-audit_NCC.pdf) |
+| `Discv5` | 20191015 | [pdf](https://github.com/justin-0613/go-aroeum/blob/master/docs/audits/2019-10-15_Discv5_audit_LeastAuthority.pdf) |
+| `Discv5` | 20200124 | [pdf](https://github.com/justin-0613/go-aroeum/blob/master/docs/audits/2020-01-24_DiscV5_audit_Cure53.pdf) |
 
 ## Reporting a Vulnerability
 
 **Please do not file a public ticket** mentioning the vulnerability.
 
-To find out how to disclose a vulnerability in Aroeum visit [https://bounty.ethereum.org](https://bounty.ethereum.org) or email bounty@ethereum.org. Please read the [disclosure page](https://github.com/aroeum-network/go-aroeum/security/advisories?state=published) for more information about publicly disclosed security vulnerabilities.
+To find out how to disclose a vulnerability in Aroeum visit [https://bounty.ethereum.org](https://bounty.ethereum.org) or email bounty@ethereum.org. Please read the [disclosure page](https://github.com/justin-0613/go-aroeum/security/advisories?state=published) for more information about publicly disclosed security vulnerabilities.
 
 Use the built-in `garo version-check` feature to check whether the software is affected by any known vulnerability. This command will fetch the latest [`vulnerabilities.json`](https://garo.ethereum.org/docs/vulnerabilities/vulnerabilities.json) file which contains known security vulnerabilities concerning `garo`, and cross-check the data against its own version number.
 

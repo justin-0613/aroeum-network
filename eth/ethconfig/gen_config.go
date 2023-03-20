@@ -5,14 +5,14 @@ package ethconfig
 import (
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/consensus/ethash"
-	"github.com/aroeum-network/go-aroeum/core"
-	"github.com/aroeum-network/go-aroeum/core/txpool"
-	"github.com/aroeum-network/go-aroeum/eth/downloader"
-	"github.com/aroeum-network/go-aroeum/eth/gasprice"
-	"github.com/aroeum-network/go-aroeum/miner"
-	"github.com/aroeum-network/go-aroeum/params"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/consensus/ethash"
+	"github.com/justin-0613/go-aroeum/core"
+	"github.com/justin-0613/go-aroeum/core/txpool"
+	"github.com/justin-0613/go-aroeum/eth/downloader"
+	"github.com/justin-0613/go-aroeum/eth/gasprice"
+	"github.com/justin-0613/go-aroeum/miner"
+	"github.com/justin-0613/go-aroeum/params"
 )
 
 // MarshalTOML marshals as TOML.

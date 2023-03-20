@@ -20,7 +20,7 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/aroeum-network/go-aroeum/log"
+	"github.com/justin-0613/go-aroeum/log"
 )
 
 type (

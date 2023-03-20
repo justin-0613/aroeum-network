@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/accounts/abi/bind"
-	"github.com/aroeum-network/go-aroeum/core"
-	"github.com/aroeum-network/go-aroeum/core/types"
-	"github.com/aroeum-network/go-aroeum/crypto"
-	"github.com/aroeum-network/go-aroeum/light"
-	"github.com/aroeum-network/go-aroeum/params"
+	"github.com/justin-0613/go-aroeum/accounts/abi/bind"
+	"github.com/justin-0613/go-aroeum/core"
+	"github.com/justin-0613/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/crypto"
+	"github.com/justin-0613/go-aroeum/light"
+	"github.com/justin-0613/go-aroeum/params"
 )
 
 // Test light syncing which will download all headers from genesis.
@@ -196,7 +196,7 @@ func testMissOracleBackend(t *testing.T, hasCheckpoint bool, protocol int) {
 	// that user wants to unlock something which blocks the oracle backend
 	// initialisation. But at the same time syncing starts.
 	//
-	// See https://github.com/aroeum-network/go-aroeum/issues/20097 for more detail.
+	// See https://github.com/justin-0613/go-aroeum/issues/20097 for more detail.
 	//
 	// In this case, client should run light sync or legacy checkpoint sync
 	// if hardcoded checkpoint is configured.

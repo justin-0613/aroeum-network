@@ -21,8 +21,8 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/core/vm"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/core/vm"
 )
 
 // Context contains some contextual infos for a transaction execution that is not

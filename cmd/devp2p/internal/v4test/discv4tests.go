@@ -23,9 +23,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/crypto"
-	"github.com/aroeum-network/go-aroeum/internal/utesting"
-	"github.com/aroeum-network/go-aroeum/p2p/discover/v4wire"
+	"github.com/justin-0613/go-aroeum/crypto"
+	"github.com/justin-0613/go-aroeum/internal/utesting"
+	"github.com/justin-0613/go-aroeum/p2p/discover/v4wire"
 )
 
 const (

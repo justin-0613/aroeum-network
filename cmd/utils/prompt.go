@@ -20,7 +20,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/aroeum-network/go-aroeum/console/prompt"
+	"github.com/justin-0613/go-aroeum/console/prompt"
 )
 
 // GetPassPhrase displays the given text(prompt) to the user and requests some textual

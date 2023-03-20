@@ -19,8 +19,8 @@ package client
 import (
 	"io"
 
-	"github.com/aroeum-network/go-aroeum/les/utils"
-	"github.com/aroeum-network/go-aroeum/rlp"
+	"github.com/justin-0613/go-aroeum/les/utils"
+	"github.com/justin-0613/go-aroeum/rlp"
 )
 
 const basketFactor = 1000000 // reference basket amount and value scale factor

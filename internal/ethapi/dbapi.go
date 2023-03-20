@@ -17,8 +17,8 @@
 package ethapi
 
 import (
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/common/hexutil"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/common/hexutil"
 )
 
 // DbGet returns the raw value of a key stored in the database.

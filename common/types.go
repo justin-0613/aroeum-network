@@ -28,7 +28,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/aroeum-network/go-aroeum/common/hexutil"
+	"github.com/justin-0613/go-aroeum/common/hexutil"
 	"golang.org/x/crypto/sha3"
 )
 

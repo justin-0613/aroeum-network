@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

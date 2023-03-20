@@ -3,9 +3,9 @@ InstallDir "$InstDir"
 OutFile "${OUTPUTFILE}" # set through command line arguments
 
 # Links for "Add/Remove Programs"
-!define HELPURL "https://github.com/aroeum-network/go-aroeum/issues"
-!define UPDATEURL "https://github.com/aroeum-network/go-aroeum/releases"
-!define ABOUTURL "https://github.com/aroeum-network/go-aroeum#aroeum-go"
+!define HELPURL "https://github.com/justin-0613/go-aroeum/issues"
+!define UPDATEURL "https://github.com/justin-0613/go-aroeum/releases"
+!define ABOUTURL "https://github.com/justin-0613/go-aroeum#aroeum-go"
 !define /date NOW "%Y%m%d"
 
 PageEx license

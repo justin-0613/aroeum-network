@@ -22,8 +22,8 @@ import (
 	"strings"
 
 	"github.com/cloudflare/cloudflare-go"
-	"github.com/aroeum-network/go-aroeum/log"
-	"github.com/aroeum-network/go-aroeum/p2p/dnsdisc"
+	"github.com/justin-0613/go-aroeum/log"
+	"github.com/justin-0613/go-aroeum/p2p/dnsdisc"
 	"github.com/urfave/cli/v2"
 )
 

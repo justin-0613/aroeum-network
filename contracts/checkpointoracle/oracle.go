@@ -24,10 +24,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/aroeum-network/go-aroeum/accounts/abi/bind"
-	"github.com/aroeum-network/go-aroeum/common"
-	"github.com/aroeum-network/go-aroeum/contracts/checkpointoracle/contract"
-	"github.com/aroeum-network/go-aroeum/core/types"
+	"github.com/justin-0613/go-aroeum/accounts/abi/bind"
+	"github.com/justin-0613/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/contracts/checkpointoracle/contract"
+	"github.com/justin-0613/go-aroeum/core/types"
 )
 
 // CheckpointOracle is a Go wrapper around an on-chain checkpoint oracle contract.

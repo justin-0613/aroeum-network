@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/aroeum-network/go-aroeum/common/bitutil"
-	"github.com/aroeum-network/go-aroeum/light"
+	"github.com/justin-0613/go-aroeum/common/bitutil"
+	"github.com/justin-0613/go-aroeum/light"
 )
 
 const (

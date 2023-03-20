@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/aroeum-network/go-aroeum/rlp"
+	"github.com/justin-0613/go-aroeum/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.
