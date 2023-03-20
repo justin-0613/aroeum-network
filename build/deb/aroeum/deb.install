@@ -1,0 +1,5 @@
+build/bin/{{.BinaryName}} usr/bin
+{{- if eq .BinaryName "garo" }}
+build/deb/aroeum/completions/bash/garo etc/bash_completion.d
+build/deb/aroeum/completions/zsh/_garo usr/share/zsh/vendor-completions
+{{end -}}
