@@ -46,10 +46,13 @@ var (
 	maxUncles                     = 2                 // Maximum number of uncles allowed in a single block
 	allowedFutureBlockTimeSeconds = int64(15)         // Max seconds from current time allowed for blocks, before they're considered future blocks
 
+	// calcDifficultySilkFish 
+	calcDifficultySilkFish = makeDifficultyCalculator(big.NewInt(15_000_000))
+
 	// calcDifficultyEip5133 is the difficulty adjustment algorithm as specified by EIP 5133.
 	// It offsets the bomb a total of 11.4M blocks.
 	// Specification EIP-5133: https://eips.ethereum.org/EIPS/eip-5133
-	calcDifficultySilkFish = makeDifficultyCalculator(big.NewInt(15_000_000))
+	calcDifficultyEip5133 = makeDifficultyCalculator(big.NewInt(11_400_000))	
 
 	// calcDifficultyEip4345 is the difficulty adjustment algorithm as specified by EIP 4345.
 	// It offsets the bomb a total of 10.7M blocks.
