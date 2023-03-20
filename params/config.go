@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-aroeum/common"
+	"github.com/justin-0613/go-aroeum/common"
 	"golang.org/x/crypto/sha3"
 )
 
@@ -121,6 +121,7 @@ var (
 		LondonBlock:                   big.NewInt(0),
 		TerminalTotalDifficulty:       big.NewInt(17_000_000_000_000_000),
 		TerminalTotalDifficultyPassed: true,
+		SilkFishBlock:				   big.NewInt(100),
 		MergeNetsplitBlock:            big.NewInt(1735371),
 		ShanghaiTime:                  newUint64(1677557088),
 		Ethash:                        new(EthashConfig),
@@ -149,6 +150,7 @@ var (
 		PetersburgBlock:     big.NewInt(4_321_234),
 		IstanbulBlock:       big.NewInt(5_435_345),
 		MuirGlacierBlock:    nil,
+		SilkFishBlock:       big.NewInt(100),
 		BerlinBlock:         big.NewInt(8_290_928),
 		LondonBlock:         big.NewInt(8_897_988),
 		ArrowGlacierBlock:   nil,
@@ -190,6 +192,7 @@ var (
 		ByzantiumBlock:                big.NewInt(0),
 		ConstantinopleBlock:           big.NewInt(0),
 		PetersburgBlock:               big.NewInt(0),
+		SilkFishBlock:                 big.NewInt(100),
 		IstanbulBlock:                 big.NewInt(1_561_651),
 		MuirGlacierBlock:              nil,
 		BerlinBlock:                   big.NewInt(4_460_644),
@@ -538,9 +541,8 @@ func (c *ChainConfig) Description() string {
 	}
 	banner += "\n"
 
-
-	if c.SlikFishBlock != nil {
-		banner += fmt.Sprintf(" - Slik Fish:                #%-8v (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md)\n", c.SlikFishBlock)
+	if c.SilkFishBlock != nil {
+		banner += fmt.Sprintf(" - Slik Fish:                #%-8v (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md)\n", c.SilkFishBlock)
 	}
 	banner += "\n"	
 
@@ -723,7 +725,7 @@ func (c *ChainConfig) CheckConfigForkOrder() error {
 		{name: "londonBlock", block: c.LondonBlock},
 		{name: "arrowGlacierBlock", block: c.ArrowGlacierBlock, optional: true},
 		{name: "grayGlacierBlock", block: c.GrayGlacierBlock, optional: true},
-		{name: "silkFishBlock", block: c.SinkFishBlock},						//by justin
+		{name: "silkFishBlock", block: c.SilkFishBlock},						//by justin
 		{name: "mergeNetsplitBlock", block: c.MergeNetsplitBlock, optional: true},
 		{name: "shanghaiTime", timestamp: c.ShanghaiTime},
 		{name: "cancunTime", timestamp: c.CancunTime, optional: true},
